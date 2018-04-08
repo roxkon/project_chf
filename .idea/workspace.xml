@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d7f92a1-0ba8-49a9-ae36-e7e5fbcfcd71" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.bundle/" />
+    <ignored path="$PROJECT_DIR$/components/" />
+    <ignored path="$PROJECT_DIR$/public/system/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/vendor/bundle/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/canna_medica@Development__canna_medica.coverage" NAME="Development: canna_medica Coverage Results" MODIFIED="1523117549209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="canna_medica" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="master.key" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/master.key">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/font-awesome.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="3" column="3185" lean-forward="false" selection-start-line="3" selection-start-column="3185" selection-end-line="3" selection-end-column="3185" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonts.css.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.css.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assets.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.html.haml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1523118166768" expanded="true" signature="1036:8188" ph="##main-navigation.collapse.navbar-collapse" />
+                <marker date="1523118166768" expanded="true" signature="1106:8188" ph="%ul.nav.navbar-nav.navbar-right" />
+                <marker date="1523118166768" expanded="true" signature="1148:1690" ph="%li.active" />
+                <marker date="1523118166768" expanded="true" signature="1171:1192" ph="%a{:href =&gt; &quot;##&quot;} Home" />
+                <marker date="1523118166768" expanded="true" signature="1205:1690" ph="%ul.sub-menu" />
+                <marker date="1523118166768" expanded="true" signature="1257:1391" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="1277:1391" ph="%a{:href =&gt; &quot;home-version-1.html&quot;}" />
+                <marker date="1523118166768" expanded="true" signature="1330:1344" ph="Home Version 1" />
+                <marker date="1523118166768" expanded="true" signature="1363:1391" ph="%span.badge Appointment Form" />
+                <marker date="1523118166768" expanded="true" signature="1406:1541" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="1426:1541" ph="%a{:href =&gt; &quot;home-version-2.html&quot;}" />
+                <marker date="1523118166768" expanded="true" signature="1479:1493" ph="Home Version 2" />
+                <marker date="1523118166768" expanded="true" signature="1512:1541" ph="%span.badge Slider Revolution" />
+                <marker date="1523118166768" expanded="true" signature="1556:1690" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="1576:1690" ph="%a{:href =&gt; &quot;home-version-3.html&quot;}" />
+                <marker date="1523118166768" expanded="true" signature="1629:1643" ph="Home Version 3" />
+                <marker date="1523118166768" expanded="true" signature="1662:1690" ph="%span.badge Video Background" />
+                <marker date="1523118166768" expanded="true" signature="1701:5143" ph="%li.mega-sub-menu" />
+                <marker date="1523118166768" expanded="true" signature="1731:1753" ph="%a{:href =&gt; &quot;##&quot;} Pages" />
+                <marker date="1523118166768" expanded="true" signature="1790:5143" ph="%ul.mega-dropdown.row" />
+                <marker date="1523118166768" expanded="true" signature="1826:2460" ph="%li.col-sm-3" />
+                <marker date="1523118166768" expanded="true" signature="1855:2460" ph="%ul.mega-menu-items" />
+                <marker date="1523118166768" expanded="true" signature="1893:1916" ph="%li.heading Doctor Grid" />
+                <marker date="1523118166768" expanded="true" signature="1935:2009" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="1959:2009" ph="%a{:href =&gt; &quot;doctors-style-1.html&quot;} Doctor Style 1" />
+                <marker date="1523118166768" expanded="true" signature="2028:2102" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="2052:2102" ph="%a{:href =&gt; &quot;doctors-style-2.html&quot;} Doctor Style 2" />
+                <marker date="1523118166768" expanded="true" signature="2121:2189" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="2145:2189" ph="%a{:href =&gt; &quot;doctors-mini.html&quot;} Doctor Mini" />
+                <marker date="1523118166768" expanded="true" signature="2208:2214" ph="%li.hr" />
+                <marker date="1523118166768" expanded="true" signature="2233:2259" ph="%li.heading Doctor Profile" />
+                <marker date="1523118166768" expanded="true" signature="2278:2349" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="2302:2349" ph="%a{:href =&gt; &quot;doctor-single.html&quot;} Doctor Single" />
+                <marker date="1523118166768" expanded="true" signature="2368:2460" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="2392:2460" ph="%a{:href =&gt; &quot;doctor-single-sidebar.html&quot;} Doctor Single with Sidebar" />
+                <marker date="1523118166768" expanded="true" signature="2475:3252" ph="%li.col-sm-3" />
+                <marker date="1523118166768" expanded="true" signature="2504:3252" ph="%ul.mega-menu-items" />
+                <marker date="1523118166768" expanded="true" signature="2542:2569" ph="%li.heading Department Grid" />
+                <marker date="1523118166768" expanded="true" signature="2588:2670" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="2612:2670" ph="%a{:href =&gt; &quot;departments-style-1.html&quot;} Department Style 1" />
+                <marker date="1523118166768" expanded="true" signature="2689:2771" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="2713:2771" ph="%a{:href =&gt; &quot;departments-style-2.html&quot;} Department Style 2" />
+                <marker date="1523118166768" expanded="true" signature="2790:2866" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="2814:2866" ph="%a{:href =&gt; &quot;departments-mini.html&quot;} Department Mini" />
+                <marker date="1523118166768" expanded="true" signature="2885:2961" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="2909:2961" ph="%a{:href =&gt; &quot;departments-list.html&quot;} Department List" />
+                <marker date="1523118166768" expanded="true" signature="2980:2986" ph="%li.hr" />
+                <marker date="1523118166768" expanded="true" signature="3005:3035" ph="%li.heading Department Details" />
+                <marker date="1523118166768" expanded="true" signature="3054:3133" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="3078:3133" ph="%a{:href =&gt; &quot;department-single.html&quot;} Department Single" />
+                <marker date="1523118166768" expanded="true" signature="3152:3252" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="3176:3252" ph="%a{:href =&gt; &quot;department-single-sidebar.html&quot;} Department Single with Sidebar" />
+                <marker date="1523118166768" expanded="true" signature="3267:4212" ph="%li.col-sm-3" />
+                <marker date="1523118166768" expanded="true" signature="3296:4212" ph="%ul.mega-menu-items" />
+                <marker date="1523118166768" expanded="true" signature="3334:3358" ph="%li.heading Appointments" />
+                <marker date="1523118166768" expanded="true" signature="3377:3462" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="3401:3462" ph="%a{:href =&gt; &quot;appointment-advanced.html&quot;} Appointment Advanced" />
+                <marker date="1523118166768" expanded="true" signature="3481:3560" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="3505:3560" ph="%a{:href =&gt; &quot;appointment-basic.html&quot;} Appointment Basic" />
+                <marker date="1523118166768" expanded="true" signature="3579:3666" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="3603:3666" ph="%a{:href =&gt; &quot;book-appointment-form.html&quot;} Book Appointment Form" />
+                <marker date="1523118166768" expanded="true" signature="3685:3691" ph="%li.hr" />
+                <marker date="1523118166768" expanded="true" signature="3710:3735" ph="%li.heading About Medwise" />
+                <marker date="1523118166768" expanded="true" signature="3754:3812" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="3778:3812" ph="%a{:href =&gt; &quot;about.html&quot;} About Us" />
+                <marker date="1523118166768" expanded="true" signature="3831:3888" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="3855:3888" ph="%a{:href =&gt; &quot;why-us.html&quot;} Why Us" />
+                <marker date="1523118166768" expanded="true" signature="3907:3966" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="3931:3966" ph="%a{:href =&gt; &quot;process.html&quot;} Process" />
+                <marker date="1523118166768" expanded="true" signature="3985:4046" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4009:4046" ph="%a{:href =&gt; &quot;features.html&quot;} Features" />
+                <marker date="1523118166768" expanded="true" signature="4065:4134" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4089:4134" ph="%a{:href =&gt; &quot;testimonials.html&quot;} Testimonials" />
+                <marker date="1523118166768" expanded="true" signature="4153:4212" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4177:4212" ph="%a{:href =&gt; &quot;careers.html&quot;} Careers" />
+                <marker date="1523118166768" expanded="true" signature="4227:5143" ph="%li.col-sm-3" />
+                <marker date="1523118166768" expanded="true" signature="4256:5143" ph="%ul.mega-menu-items" />
+                <marker date="1523118166768" expanded="true" signature="4294:4317" ph="%li.heading Other Pages" />
+                <marker date="1523118166768" expanded="true" signature="4336:4395" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4360:4395" ph="%a{:href =&gt; &quot;gallery.html&quot;} Gallery" />
+                <marker date="1523118166768" expanded="true" signature="4414:4471" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4438:4471" ph="%a{:href =&gt; &quot;events.html&quot;} Events" />
+                <marker date="1523118166768" expanded="true" signature="4490:4559" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4514:4559" ph="%a{:href =&gt; &quot;download-app.html&quot;} Download App" />
+                <marker date="1523118166768" expanded="true" signature="4578:4651" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4602:4651" ph="%a{:href =&gt; &quot;pricing-tables.html&quot;} Pricing Tables" />
+                <marker date="1523118166768" expanded="true" signature="4670:4727" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4694:4727" ph="%a{:href =&gt; &quot;offers.html&quot;} Offers" />
+                <marker date="1523118166768" expanded="true" signature="4746:4811" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4770:4811" ph="%a{:href =&gt; &quot;dos-donts.html&quot;} Dos &amp; Donts" />
+                <marker date="1523118166768" expanded="true" signature="4830:4897" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4854:4897" ph="%a{:href =&gt; &quot;question-answer.html&quot;} Q and A" />
+                <marker date="1523118166768" expanded="true" signature="4916:4977" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="4940:4977" ph="%a{:href =&gt; &quot;policies.html&quot;} Policies" />
+                <marker date="1523118166768" expanded="true" signature="4996:5063" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="5020:5063" ph="%a{:href =&gt; &quot;coming-soon.html&quot;} Coming Soon" />
+                <marker date="1523118166768" expanded="true" signature="5082:5143" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="5106:5143" ph="%a{:href =&gt; &quot;404.html&quot;} 404-Not Found" />
+                <marker date="1523118166768" expanded="true" signature="5154:7308" ph="%li.mega-sub-menu" />
+                <marker date="1523118166768" expanded="true" signature="5184:5209" ph="%a{:href =&gt; &quot;##&quot;} Elements" />
+                <marker date="1523118166768" expanded="true" signature="5246:7308" ph="%ul.mega-dropdown.row{:style =&gt; &quot;background-image:url('images/doc-3.png'); background-position:right top; background-repeat:no-repeat&quot;}" />
+                <marker date="1523118166768" expanded="true" signature="5396:6075" ph="%li.col-sm-3" />
+                <marker date="1523118166768" expanded="true" signature="5425:6075" ph="%ul.mega-menu-items" />
+                <marker date="1523118166768" expanded="true" signature="5463:5490" ph="%li.heading Header &amp; Footer" />
+                <marker date="1523118166768" expanded="true" signature="5509:5578" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="5533:5578" ph="%a{:href =&gt; &quot;page-style-1.html&quot;} Page Style 1" />
+                <marker date="1523118166768" expanded="true" signature="5597:5666" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="5621:5666" ph="%a{:href =&gt; &quot;page-style-2.html&quot;} Page Style 2" />
+                <marker date="1523118166768" expanded="true" signature="5685:5754" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="5709:5754" ph="%a{:href =&gt; &quot;page-style-3.html&quot;} Page Style 3" />
+                <marker date="1523118166768" expanded="true" signature="5773:5779" ph="%li.hr" />
+                <marker date="1523118166768" expanded="true" signature="5798:5821" ph="%li.heading Interaction" />
+                <marker date="1523118166768" expanded="true" signature="5840:5913" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="5864:5913" ph="%a{:href =&gt; &quot;call-to-action.html&quot;} Call To Action" />
+                <marker date="1523118166768" expanded="true" signature="5932:5995" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="5956:5995" ph="%a{:href =&gt; &quot;subscribe.html&quot;} Subscribe" />
+                <marker date="1523118166768" expanded="true" signature="6014:6075" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6038:6075" ph="%a{:href =&gt; &quot;call-out.html&quot;} Call Out" />
+                <marker date="1523118166768" expanded="true" signature="6090:6662" ph="%li.col-sm-3" />
+                <marker date="1523118166768" expanded="true" signature="6119:6662" ph="%ul.mega-menu-items" />
+                <marker date="1523118166768" expanded="true" signature="6157:6177" ph="%li.heading Elements" />
+                <marker date="1523118166768" expanded="true" signature="6196:6261" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6220:6261" ph="%a{:href =&gt; &quot;icon-boxes.html&quot;} Icon Boxes" />
+                <marker date="1523118166768" expanded="true" signature="6280:6343" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6304:6343" ph="%a{:href =&gt; &quot;accordion.html&quot;} Accordion" />
+                <marker date="1523118166768" expanded="true" signature="6362:6415" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6386:6415" ph="%a{:href =&gt; &quot;tabs.html&quot;} Tabs" />
+                <marker date="1523118166768" expanded="true" signature="6434:6504" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6458:6504" ph="%a{:href =&gt; &quot;progress-bar.html&quot;} Progress Bars" />
+                <marker date="1523118166768" expanded="true" signature="6523:6580" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6547:6580" ph="%a{:href =&gt; &quot;modals.html&quot;} Modals" />
+                <marker date="1523118166768" expanded="true" signature="6599:6662" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6623:6662" ph="%a{:href =&gt; &quot;carousels.html&quot;} Carousels" />
+                <marker date="1523118166768" expanded="true" signature="6677:7281" ph="%li.col-sm-3" />
+                <marker date="1523118166768" expanded="true" signature="6706:7281" ph="%ul.mega-menu-items" />
+                <marker date="1523118166768" expanded="true" signature="6744:6769" ph="%li.heading Miscellaneous" />
+                <marker date="1523118166768" expanded="true" signature="6788:6859" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6812:6859" ph="%a{:href =&gt; &quot;medical-icons.html&quot;} Medical Icons" />
+                <marker date="1523118166768" expanded="true" signature="6878:6949" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6902:6949" ph="%a{:href =&gt; &quot;text-sections.html&quot;} Text Sections" />
+                <marker date="1523118166768" expanded="true" signature="6968:7039" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="6992:7039" ph="%a{:href =&gt; &quot;quick-contact.html&quot;} Quick Contact" />
+                <marker date="1523118166768" expanded="true" signature="7058:7113" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7082:7113" ph="%a{:href =&gt; &quot;video.html&quot;} Video" />
+                <marker date="1523118166768" expanded="true" signature="7132:7193" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7156:7193" ph="%a{:href =&gt; &quot;counters.html&quot;} Counters" />
+                <marker date="1523118166768" expanded="true" signature="7212:7281" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7236:7281" ph="%a{:href =&gt; &quot;social-media.html&quot;} Social Media" />
+                <marker date="1523118166768" expanded="true" signature="7296:7308" ph="%li.col-sm-3" />
+                <marker date="1523118166768" expanded="true" signature="7319:7636" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7335:7356" ph="%a{:href =&gt; &quot;##&quot;} Blog" />
+                <marker date="1523118166768" expanded="true" signature="7369:7636" ph="%ul.sub-menu" />
+                <marker date="1523118166768" expanded="true" signature="7421:7480" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7441:7480" ph="%a{:href =&gt; &quot;blog-list.html&quot;} Blog List" />
+                <marker date="1523118166768" expanded="true" signature="7495:7558" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7515:7558" ph="%a{:href =&gt; &quot;blog-single.html&quot;} Blog Single" />
+                <marker date="1523118166768" expanded="true" signature="7573:7636" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7593:7636" ph="%a{:href =&gt; &quot;widgets.html&quot;} Sidebar Widgets" />
+                <marker date="1523118166768" expanded="true" signature="7647:7983" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7663:7687" ph="%a{:href =&gt; &quot;##&quot;} Contact" />
+                <marker date="1523118166768" expanded="true" signature="7700:7983" ph="%ul.sub-menu" />
+                <marker date="1523118166768" expanded="true" signature="7752:7819" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7772:7819" ph="%a{:href =&gt; &quot;contact-1.html&quot;} Contact Version 1" />
+                <marker date="1523118166768" expanded="true" signature="7834:7901" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7854:7901" ph="%a{:href =&gt; &quot;contact-2.html&quot;} Contact Version 2" />
+                <marker date="1523118166768" expanded="true" signature="7916:7983" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="7936:7983" ph="%a{:href =&gt; &quot;contact-3.html&quot;} Contact Version 3" />
+                <marker date="1523118166768" expanded="true" signature="7994:8188" ph="%li" />
+                <marker date="1523118166768" expanded="true" signature="8010:8188" ph="%span.emergency" />
+                <marker date="1523118166768" expanded="true" signature="8073:8088" ph="%i.fa.fa-mobile" />
+                <marker date="1523118166768" expanded="true" signature="8103:8131" ph="%span.number +48*73*32*32100" />
+                <marker date="1523118166768" expanded="true" signature="8146:8150" ph="%br/" />
+                <marker date="1523118166768" expanded="true" signature="8165:8188" ph="%span.sub-text CENTRALA" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding>
+                <marker date="1523116383861" expanded="true" signature="1073:1074" ph="##..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>node</find>
+      <find>rspec</find>
+      <find>boot</find>
+      <find>canna_medica</find>
+      <find>CANNA_MEDICA</find>
+      <find>playground</find>
+      <find>font-face</find>
+      <find>font-fam</find>
+      <find>glyphi</find>
+      <find>font-family</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>playground</replace>
+      <replace>PLAYGROUND</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/config/cable.yml" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages_controller/about.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/static_pages_controller/contact.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/static_pages_controller/home.html.haml" />
+        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/vendor/assets/stylesheets/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/fonts.css.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-662" />
+    <option name="y" value="-1800" />
+    <option name="width" value="3200" />
+    <option name="height" value="1800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="static_pages_controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="initializers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="railties (v5.2.0.beta2, RVM: ruby-2.5.0) [gem]" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="railties (v5.2.0.beta2, RVM: ruby-2.5.0) [gem]" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="railties (v5.2.0.beta2, RVM: ruby-2.5.0) [gem]" type="70bed36:NamedLibraryElementNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="rails" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.Development: canna_medica">
+    <configuration name="Development: canna_medica" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="canna_medica" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="Production: canna_medica" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="canna_medica" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+    </configuration>
+    <configuration name="spec: canna_medica" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="canna_medica" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <configuration name="test: canna_medica" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="canna_medica" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Rake.test: canna_medica" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec: canna_medica" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: canna_medica" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: canna_medica" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d7f92a1-0ba8-49a9-ae36-e7e5fbcfcd71" name="Default" comment="" />
+      <created>1515930578016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515930578016</updated>
+      <workItem from="1515930579614" duration="3997000" />
+      <workItem from="1521286106205" duration="1436000" />
+      <workItem from="1521493844273" duration="2052000" />
+      <workItem from="1521799348204" duration="427000" />
+      <workItem from="1523115652662" duration="1720000" />
+      <workItem from="1523119311966" duration="93000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9725000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-662" y="-1800" width="3200" height="1800" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12381254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2148234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2175981" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996434" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/about.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/contact.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <marker date="1523116383861" expanded="true" signature="1073:1074" ph="##..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cable.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/about.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/contact.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <marker date="1523116383861" expanded="true" signature="1073:1074" ph="##..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cable.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180114124832_create_active_storage_tables.active_storage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="992">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <marker date="1523116383861" expanded="true" signature="1073:1074" ph="##..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180114124832_create_active_storage_tables.active_storage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cable.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <marker date="1523116383861" expanded="true" signature="1073:1074" ph="##..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/railties-5.2.0.beta2/lib/rails/secrets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="72" column="1" lean-forward="false" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/contact.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages_controller/about.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/master.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1523118166768" expanded="true" signature="1036:8188" ph="##main-navigation.collapse.navbar-collapse" />
+            <marker date="1523118166768" expanded="true" signature="1106:8188" ph="%ul.nav.navbar-nav.navbar-right" />
+            <marker date="1523118166768" expanded="true" signature="1148:1690" ph="%li.active" />
+            <marker date="1523118166768" expanded="true" signature="1171:1192" ph="%a{:href =&gt; &quot;##&quot;} Home" />
+            <marker date="1523118166768" expanded="true" signature="1205:1690" ph="%ul.sub-menu" />
+            <marker date="1523118166768" expanded="true" signature="1257:1391" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="1277:1391" ph="%a{:href =&gt; &quot;home-version-1.html&quot;}" />
+            <marker date="1523118166768" expanded="true" signature="1330:1344" ph="Home Version 1" />
+            <marker date="1523118166768" expanded="true" signature="1363:1391" ph="%span.badge Appointment Form" />
+            <marker date="1523118166768" expanded="true" signature="1406:1541" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="1426:1541" ph="%a{:href =&gt; &quot;home-version-2.html&quot;}" />
+            <marker date="1523118166768" expanded="true" signature="1479:1493" ph="Home Version 2" />
+            <marker date="1523118166768" expanded="true" signature="1512:1541" ph="%span.badge Slider Revolution" />
+            <marker date="1523118166768" expanded="true" signature="1556:1690" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="1576:1690" ph="%a{:href =&gt; &quot;home-version-3.html&quot;}" />
+            <marker date="1523118166768" expanded="true" signature="1629:1643" ph="Home Version 3" />
+            <marker date="1523118166768" expanded="true" signature="1662:1690" ph="%span.badge Video Background" />
+            <marker date="1523118166768" expanded="true" signature="1701:5143" ph="%li.mega-sub-menu" />
+            <marker date="1523118166768" expanded="true" signature="1731:1753" ph="%a{:href =&gt; &quot;##&quot;} Pages" />
+            <marker date="1523118166768" expanded="true" signature="1790:5143" ph="%ul.mega-dropdown.row" />
+            <marker date="1523118166768" expanded="true" signature="1826:2460" ph="%li.col-sm-3" />
+            <marker date="1523118166768" expanded="true" signature="1855:2460" ph="%ul.mega-menu-items" />
+            <marker date="1523118166768" expanded="true" signature="1893:1916" ph="%li.heading Doctor Grid" />
+            <marker date="1523118166768" expanded="true" signature="1935:2009" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="1959:2009" ph="%a{:href =&gt; &quot;doctors-style-1.html&quot;} Doctor Style 1" />
+            <marker date="1523118166768" expanded="true" signature="2028:2102" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="2052:2102" ph="%a{:href =&gt; &quot;doctors-style-2.html&quot;} Doctor Style 2" />
+            <marker date="1523118166768" expanded="true" signature="2121:2189" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="2145:2189" ph="%a{:href =&gt; &quot;doctors-mini.html&quot;} Doctor Mini" />
+            <marker date="1523118166768" expanded="true" signature="2208:2214" ph="%li.hr" />
+            <marker date="1523118166768" expanded="true" signature="2233:2259" ph="%li.heading Doctor Profile" />
+            <marker date="1523118166768" expanded="true" signature="2278:2349" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="2302:2349" ph="%a{:href =&gt; &quot;doctor-single.html&quot;} Doctor Single" />
+            <marker date="1523118166768" expanded="true" signature="2368:2460" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="2392:2460" ph="%a{:href =&gt; &quot;doctor-single-sidebar.html&quot;} Doctor Single with Sidebar" />
+            <marker date="1523118166768" expanded="true" signature="2475:3252" ph="%li.col-sm-3" />
+            <marker date="1523118166768" expanded="true" signature="2504:3252" ph="%ul.mega-menu-items" />
+            <marker date="1523118166768" expanded="true" signature="2542:2569" ph="%li.heading Department Grid" />
+            <marker date="1523118166768" expanded="true" signature="2588:2670" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="2612:2670" ph="%a{:href =&gt; &quot;departments-style-1.html&quot;} Department Style 1" />
+            <marker date="1523118166768" expanded="true" signature="2689:2771" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="2713:2771" ph="%a{:href =&gt; &quot;departments-style-2.html&quot;} Department Style 2" />
+            <marker date="1523118166768" expanded="true" signature="2790:2866" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="2814:2866" ph="%a{:href =&gt; &quot;departments-mini.html&quot;} Department Mini" />
+            <marker date="1523118166768" expanded="true" signature="2885:2961" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="2909:2961" ph="%a{:href =&gt; &quot;departments-list.html&quot;} Department List" />
+            <marker date="1523118166768" expanded="true" signature="2980:2986" ph="%li.hr" />
+            <marker date="1523118166768" expanded="true" signature="3005:3035" ph="%li.heading Department Details" />
+            <marker date="1523118166768" expanded="true" signature="3054:3133" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="3078:3133" ph="%a{:href =&gt; &quot;department-single.html&quot;} Department Single" />
+            <marker date="1523118166768" expanded="true" signature="3152:3252" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="3176:3252" ph="%a{:href =&gt; &quot;department-single-sidebar.html&quot;} Department Single with Sidebar" />
+            <marker date="1523118166768" expanded="true" signature="3267:4212" ph="%li.col-sm-3" />
+            <marker date="1523118166768" expanded="true" signature="3296:4212" ph="%ul.mega-menu-items" />
+            <marker date="1523118166768" expanded="true" signature="3334:3358" ph="%li.heading Appointments" />
+            <marker date="1523118166768" expanded="true" signature="3377:3462" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="3401:3462" ph="%a{:href =&gt; &quot;appointment-advanced.html&quot;} Appointment Advanced" />
+            <marker date="1523118166768" expanded="true" signature="3481:3560" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="3505:3560" ph="%a{:href =&gt; &quot;appointment-basic.html&quot;} Appointment Basic" />
+            <marker date="1523118166768" expanded="true" signature="3579:3666" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="3603:3666" ph="%a{:href =&gt; &quot;book-appointment-form.html&quot;} Book Appointment Form" />
+            <marker date="1523118166768" expanded="true" signature="3685:3691" ph="%li.hr" />
+            <marker date="1523118166768" expanded="true" signature="3710:3735" ph="%li.heading About Medwise" />
+            <marker date="1523118166768" expanded="true" signature="3754:3812" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="3778:3812" ph="%a{:href =&gt; &quot;about.html&quot;} About Us" />
+            <marker date="1523118166768" expanded="true" signature="3831:3888" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="3855:3888" ph="%a{:href =&gt; &quot;why-us.html&quot;} Why Us" />
+            <marker date="1523118166768" expanded="true" signature="3907:3966" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="3931:3966" ph="%a{:href =&gt; &quot;process.html&quot;} Process" />
+            <marker date="1523118166768" expanded="true" signature="3985:4046" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4009:4046" ph="%a{:href =&gt; &quot;features.html&quot;} Features" />
+            <marker date="1523118166768" expanded="true" signature="4065:4134" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4089:4134" ph="%a{:href =&gt; &quot;testimonials.html&quot;} Testimonials" />
+            <marker date="1523118166768" expanded="true" signature="4153:4212" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4177:4212" ph="%a{:href =&gt; &quot;careers.html&quot;} Careers" />
+            <marker date="1523118166768" expanded="true" signature="4227:5143" ph="%li.col-sm-3" />
+            <marker date="1523118166768" expanded="true" signature="4256:5143" ph="%ul.mega-menu-items" />
+            <marker date="1523118166768" expanded="true" signature="4294:4317" ph="%li.heading Other Pages" />
+            <marker date="1523118166768" expanded="true" signature="4336:4395" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4360:4395" ph="%a{:href =&gt; &quot;gallery.html&quot;} Gallery" />
+            <marker date="1523118166768" expanded="true" signature="4414:4471" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4438:4471" ph="%a{:href =&gt; &quot;events.html&quot;} Events" />
+            <marker date="1523118166768" expanded="true" signature="4490:4559" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4514:4559" ph="%a{:href =&gt; &quot;download-app.html&quot;} Download App" />
+            <marker date="1523118166768" expanded="true" signature="4578:4651" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4602:4651" ph="%a{:href =&gt; &quot;pricing-tables.html&quot;} Pricing Tables" />
+            <marker date="1523118166768" expanded="true" signature="4670:4727" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4694:4727" ph="%a{:href =&gt; &quot;offers.html&quot;} Offers" />
+            <marker date="1523118166768" expanded="true" signature="4746:4811" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4770:4811" ph="%a{:href =&gt; &quot;dos-donts.html&quot;} Dos &amp; Donts" />
+            <marker date="1523118166768" expanded="true" signature="4830:4897" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4854:4897" ph="%a{:href =&gt; &quot;question-answer.html&quot;} Q and A" />
+            <marker date="1523118166768" expanded="true" signature="4916:4977" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="4940:4977" ph="%a{:href =&gt; &quot;policies.html&quot;} Policies" />
+            <marker date="1523118166768" expanded="true" signature="4996:5063" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="5020:5063" ph="%a{:href =&gt; &quot;coming-soon.html&quot;} Coming Soon" />
+            <marker date="1523118166768" expanded="true" signature="5082:5143" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="5106:5143" ph="%a{:href =&gt; &quot;404.html&quot;} 404-Not Found" />
+            <marker date="1523118166768" expanded="true" signature="5154:7308" ph="%li.mega-sub-menu" />
+            <marker date="1523118166768" expanded="true" signature="5184:5209" ph="%a{:href =&gt; &quot;##&quot;} Elements" />
+            <marker date="1523118166768" expanded="true" signature="5246:7308" ph="%ul.mega-dropdown.row{:style =&gt; &quot;background-image:url('images/doc-3.png'); background-position:right top; background-repeat:no-repeat&quot;}" />
+            <marker date="1523118166768" expanded="true" signature="5396:6075" ph="%li.col-sm-3" />
+            <marker date="1523118166768" expanded="true" signature="5425:6075" ph="%ul.mega-menu-items" />
+            <marker date="1523118166768" expanded="true" signature="5463:5490" ph="%li.heading Header &amp; Footer" />
+            <marker date="1523118166768" expanded="true" signature="5509:5578" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="5533:5578" ph="%a{:href =&gt; &quot;page-style-1.html&quot;} Page Style 1" />
+            <marker date="1523118166768" expanded="true" signature="5597:5666" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="5621:5666" ph="%a{:href =&gt; &quot;page-style-2.html&quot;} Page Style 2" />
+            <marker date="1523118166768" expanded="true" signature="5685:5754" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="5709:5754" ph="%a{:href =&gt; &quot;page-style-3.html&quot;} Page Style 3" />
+            <marker date="1523118166768" expanded="true" signature="5773:5779" ph="%li.hr" />
+            <marker date="1523118166768" expanded="true" signature="5798:5821" ph="%li.heading Interaction" />
+            <marker date="1523118166768" expanded="true" signature="5840:5913" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="5864:5913" ph="%a{:href =&gt; &quot;call-to-action.html&quot;} Call To Action" />
+            <marker date="1523118166768" expanded="true" signature="5932:5995" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="5956:5995" ph="%a{:href =&gt; &quot;subscribe.html&quot;} Subscribe" />
+            <marker date="1523118166768" expanded="true" signature="6014:6075" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6038:6075" ph="%a{:href =&gt; &quot;call-out.html&quot;} Call Out" />
+            <marker date="1523118166768" expanded="true" signature="6090:6662" ph="%li.col-sm-3" />
+            <marker date="1523118166768" expanded="true" signature="6119:6662" ph="%ul.mega-menu-items" />
+            <marker date="1523118166768" expanded="true" signature="6157:6177" ph="%li.heading Elements" />
+            <marker date="1523118166768" expanded="true" signature="6196:6261" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6220:6261" ph="%a{:href =&gt; &quot;icon-boxes.html&quot;} Icon Boxes" />
+            <marker date="1523118166768" expanded="true" signature="6280:6343" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6304:6343" ph="%a{:href =&gt; &quot;accordion.html&quot;} Accordion" />
+            <marker date="1523118166768" expanded="true" signature="6362:6415" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6386:6415" ph="%a{:href =&gt; &quot;tabs.html&quot;} Tabs" />
+            <marker date="1523118166768" expanded="true" signature="6434:6504" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6458:6504" ph="%a{:href =&gt; &quot;progress-bar.html&quot;} Progress Bars" />
+            <marker date="1523118166768" expanded="true" signature="6523:6580" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6547:6580" ph="%a{:href =&gt; &quot;modals.html&quot;} Modals" />
+            <marker date="1523118166768" expanded="true" signature="6599:6662" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6623:6662" ph="%a{:href =&gt; &quot;carousels.html&quot;} Carousels" />
+            <marker date="1523118166768" expanded="true" signature="6677:7281" ph="%li.col-sm-3" />
+            <marker date="1523118166768" expanded="true" signature="6706:7281" ph="%ul.mega-menu-items" />
+            <marker date="1523118166768" expanded="true" signature="6744:6769" ph="%li.heading Miscellaneous" />
+            <marker date="1523118166768" expanded="true" signature="6788:6859" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6812:6859" ph="%a{:href =&gt; &quot;medical-icons.html&quot;} Medical Icons" />
+            <marker date="1523118166768" expanded="true" signature="6878:6949" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6902:6949" ph="%a{:href =&gt; &quot;text-sections.html&quot;} Text Sections" />
+            <marker date="1523118166768" expanded="true" signature="6968:7039" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="6992:7039" ph="%a{:href =&gt; &quot;quick-contact.html&quot;} Quick Contact" />
+            <marker date="1523118166768" expanded="true" signature="7058:7113" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7082:7113" ph="%a{:href =&gt; &quot;video.html&quot;} Video" />
+            <marker date="1523118166768" expanded="true" signature="7132:7193" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7156:7193" ph="%a{:href =&gt; &quot;counters.html&quot;} Counters" />
+            <marker date="1523118166768" expanded="true" signature="7212:7281" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7236:7281" ph="%a{:href =&gt; &quot;social-media.html&quot;} Social Media" />
+            <marker date="1523118166768" expanded="true" signature="7296:7308" ph="%li.col-sm-3" />
+            <marker date="1523118166768" expanded="true" signature="7319:7636" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7335:7356" ph="%a{:href =&gt; &quot;##&quot;} Blog" />
+            <marker date="1523118166768" expanded="true" signature="7369:7636" ph="%ul.sub-menu" />
+            <marker date="1523118166768" expanded="true" signature="7421:7480" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7441:7480" ph="%a{:href =&gt; &quot;blog-list.html&quot;} Blog List" />
+            <marker date="1523118166768" expanded="true" signature="7495:7558" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7515:7558" ph="%a{:href =&gt; &quot;blog-single.html&quot;} Blog Single" />
+            <marker date="1523118166768" expanded="true" signature="7573:7636" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7593:7636" ph="%a{:href =&gt; &quot;widgets.html&quot;} Sidebar Widgets" />
+            <marker date="1523118166768" expanded="true" signature="7647:7983" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7663:7687" ph="%a{:href =&gt; &quot;##&quot;} Contact" />
+            <marker date="1523118166768" expanded="true" signature="7700:7983" ph="%ul.sub-menu" />
+            <marker date="1523118166768" expanded="true" signature="7752:7819" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7772:7819" ph="%a{:href =&gt; &quot;contact-1.html&quot;} Contact Version 1" />
+            <marker date="1523118166768" expanded="true" signature="7834:7901" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7854:7901" ph="%a{:href =&gt; &quot;contact-2.html&quot;} Contact Version 2" />
+            <marker date="1523118166768" expanded="true" signature="7916:7983" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="7936:7983" ph="%a{:href =&gt; &quot;contact-3.html&quot;} Contact Version 3" />
+            <marker date="1523118166768" expanded="true" signature="7994:8188" ph="%li" />
+            <marker date="1523118166768" expanded="true" signature="8010:8188" ph="%span.emergency" />
+            <marker date="1523118166768" expanded="true" signature="8073:8088" ph="%i.fa.fa-mobile" />
+            <marker date="1523118166768" expanded="true" signature="8103:8131" ph="%span.number +48*73*32*32100" />
+            <marker date="1523118166768" expanded="true" signature="8146:8150" ph="%br/" />
+            <marker date="1523118166768" expanded="true" signature="8165:8188" ph="%span.sub-text CENTRALA" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/fonts.css.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="3" column="3185" lean-forward="false" selection-start-line="3" selection-start-column="3185" selection-end-line="3" selection-end-column="3185" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

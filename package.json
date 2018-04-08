@@ -1,0 +1,7 @@
+{
+  "name": "canna_medica",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

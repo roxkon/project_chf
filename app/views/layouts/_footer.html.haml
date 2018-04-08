@@ -1,0 +1,42 @@
+%footer.footer-3
+  / Footer Style 3
+  .footer-pri.pt-20.pb-20
+    / Primary Footer
+    .container
+      .row
+        .col-sm-8.col-sm-offset-2.text-center
+          .widget.widget-about
+            %p
+              =I18n.t('footer.up_to_date')
+            %hr.hr-1/
+            %ul.social
+              %li
+                %a{:href => ""}
+                  %i.fa.fa-facebook
+              %li
+                %a{:href => ""}
+                  %i.fa.fa-twitter
+              %li
+                %a{:href => ""}
+                  %i.fa.fa-linkedin
+              %li
+                %a{:href => ""}
+                  %i.fa.fa-vimeo
+            %br/
+            %br/
+            %ul.contact
+              %li
+                %i.fa.fa-phone
+                +48 73*32*32100
+              %li
+                %i.fa.fa-envelope
+                federacja@cannabishouse.eu
+  .footer-sec
+    / Secondary Footer
+    .container
+      .row
+        .col-sm-12
+          %span
+            Copyright © 2012-2018 
+            =link_to "Cannabis House Sp. z o.o. ", controller: "static_pages_controller", action: "home"
+            All rights Reserved.
