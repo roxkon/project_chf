@@ -41,9 +41,10 @@
             =link_to I18n.t('header.disp_points'), controller: "static_pages_controller", action: "disp_points"
             %ul.sub-menu
               / Sub Menu
-              / %li=link_to I18n.t('header.disp_ldz'), controller: "static_pages_controller", action: "disp_ldz"
-              =link_to static_pages_controller_disp_ldz_path do
-                =I18n.t('header.disp_points'); content_tag :span, I18n.t('header.disp'), :class => "badge"
+              %li
+                =link_to static_pages_controller_disp_ldz_path do
+                  = I18n.t('header.disp_ldz')
+                  =content_tag :span, I18n.t('header.disp'), :class => "badge"
               %li
                 %a{:href => "home-version-2.html"}
                   WWA
