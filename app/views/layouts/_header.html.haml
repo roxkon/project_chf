@@ -21,7 +21,7 @@
         .col-md-6
           %ul.contact
             %li
-              %span Email Us :
+              %span=I18n.t('header.e-mail_us')
               =I18n.t('header.e-mail')
   %nav.navbar.navbar-default
     / Navigation Bar
@@ -35,24 +35,21 @@
       #main-navigation.collapse.navbar-collapse
         / Main Menu
         %ul.nav.navbar-nav.navbar-right
+          %li
+            =link_to I18n.t('header.home'), controller: "static_pages_controller", action: "home"
           %li.active
-            %a{:href => "#"} Home
+            =link_to I18n.t('header.disp_points'), controller: "static_pages_controller", action: "disp_points"
             %ul.sub-menu
               / Sub Menu
-              %li
-                %a{:href => "home-version-1.html"}
-                  Home Version 1
-                  %span.badge Appointment Form
+              / %li=link_to I18n.t('header.disp_ldz'), controller: "static_pages_controller", action: "disp_ldz"
+              =link_to static_pages_controller_disp_ldz_path do
+                =I18n.t('header.disp_points'); content_tag :span, I18n.t('header.disp'), :class => "badge"
               %li
                 %a{:href => "home-version-2.html"}
-                  Home Version 2
-                  %span.badge Slider Revolution
-              %li
-                %a{:href => "home-version-3.html"}
-                  Home Version 3
-                  %span.badge Video Background
+                  WWA
+                  %span.badge DYSPENSARIUM
           %li.mega-sub-menu
-            %a{:href => "#"} Pages
+            %a{:href => "#"}=I18n.t('header.license')
             / Mega Menu
             %ul.mega-dropdown.row
               %li.col-sm-3
@@ -133,82 +130,30 @@
                     %a{:href => "coming-soon.html"} Coming Soon
                   %li
                     %a{:href => "404.html"} 404-Not Found
-          %li.mega-sub-menu
-            %a{:href => "#"} Elements
-            / Mega Menu
-            %ul.mega-dropdown.row{:style => "background-image:url('images/doc-3.png'); background-position:right top; background-repeat:no-repeat"}
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Header & Footer
-                  %li
-                    %a{:href => "page-style-1.html"} Page Style 1
-                  %li
-                    %a{:href => "page-style-2.html"} Page Style 2
-                  %li
-                    %a{:href => "page-style-3.html"} Page Style 3
-                  %li.hr
-                  %li.heading Interaction
-                  %li
-                    %a{:href => "call-to-action.html"} Call To Action
-                  %li
-                    %a{:href => "subscribe.html"} Subscribe
-                  %li
-                    %a{:href => "call-out.html"} Call Out
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Elements
-                  %li
-                    %a{:href => "icon-boxes.html"} Icon Boxes
-                  %li
-                    %a{:href => "accordion.html"} Accordion
-                  %li
-                    %a{:href => "tabs.html"} Tabs
-                  %li
-                    %a{:href => "progress-bar.html"} Progress Bars
-                  %li
-                    %a{:href => "modals.html"} Modals
-                  %li
-                    %a{:href => "carousels.html"} Carousels
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Miscellaneous
-                  %li
-                    %a{:href => "medical-icons.html"} Medical Icons
-                  %li
-                    %a{:href => "text-sections.html"} Text Sections
-                  %li
-                    %a{:href => "quick-contact.html"} Quick Contact
-                  %li
-                    %a{:href => "video.html"} Video
-                  %li
-                    %a{:href => "counters.html"} Counters
-                  %li
-                    %a{:href => "social-media.html"} Social Media
-              %li.col-sm-3
           %li
-            %a{:href => "#"} Blog
+            %a{:href => "#"}=I18n.t('header.partners')
             %ul.sub-menu
               / Sub Menu
               %li
-                %a{:href => "blog-list.html"} Blog List
+                =link_to I18n.t('header.ch_stow'), "https://www.cannabishouse.eu", target: "_blank"
               %li
-                %a{:href => "blog-single.html"} Blog Single
+                =link_to I18n.t('header.thc'), "https://www.tradehempcenter.pl", target: "_blank"
               %li
-                %a{:href => "widgets.html"} Sidebar Widgets
+                =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
           %li
-            %a{:href => "#"} Contact
+            %a{:href => "#"}=I18n.t('header.contact')
             %ul.sub-menu
-              / Sub Menu
-              %li
-                %a{:href => "contact-1.html"} Contact Version 1
-              %li
-                %a{:href => "contact-2.html"} Contact Version 2
-              %li
-                %a{:href => "contact-3.html"} Contact Version 3
+              / / Sub Menu
+              / %li
+              /   %a{:href => "contact-1.html"} Contact Version 1
+              / %li
+              /   %a{:href => "contact-2.html"} Contact Version 2
+              / %li
+              /   %a{:href => "contact-3.html"} Contact Version 3
           %li
             %span.emergency
               / Emergency Number
               %i.fa.fa-mobile
-              %span.number +48*73*32*32100
+              %span.number=I18n.t('header.phone_nr')
               %br/
-              %span.sub-text CENTRALA
+              %span.sub-text=I18n.t('header.office')
