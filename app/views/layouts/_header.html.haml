@@ -38,11 +38,11 @@
           %li
             =link_to I18n.t('header.home'), controller: "static_pages_controller", action: "home"
           %li.active
-            =link_to I18n.t('header.disp_points'), controller: "static_pages_controller", action: "disp_points"
+            =link_to I18n.t('header.disp_points'), root_path
             %ul.sub-menu
               / Sub Menu
               %li
-                =link_to static_pages_controller_disp_ldz_path do
+                =link_to root_path do
                   = I18n.t('header.disp_ldz')
                   =content_tag :span, I18n.t('header.disp'), :class => "badge"
               %li

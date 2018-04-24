@@ -17,6 +17,9 @@
  *= require medical-icons
  *= require font-awesome.min
  *= require fonts
+ *= require layers
+ *= require navigation
+ *= require settings
  *= require_tree .
  *= require_self
  */
