@@ -21,14 +21,14 @@
         .col-md-6
           %ul.contact
             %li
-              %span=I18n.t('header.e-mail_us')
+              %span=I18n.t('header.email_us')
               =I18n.t('header.e-mail')
   %nav.navbar.navbar-default
     / Navigation Bar
     .container
       .navbar-header
         %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#main-navigation", "data-toggle" => "collapse", :type => "button"}
-          %span.sr-only Toggle Menu
+          %span.sr-only=I18n.t('header.menu')
           %i.fa.fa-bars
         =link_to image_tag("logo.png", alt: "logo"), {action: 'home', controller: 'static_pages_controller'}, class: 'navbar-brand'
         / Replace with your Logo
@@ -37,8 +37,8 @@
         %ul.nav.navbar-nav.navbar-right
           %li
             =link_to I18n.t('header.home'), controller: "static_pages_controller", action: "home"
-          %li.active
-            =link_to I18n.t('header.disp_points'), root_path
+          %li
+            =link_to I18n.t('header.dispensaries'), root_path
             %ul.sub-menu
               / Sub Menu
               %li
@@ -46,93 +46,29 @@
                   = I18n.t('header.disp_ldz')
                   =content_tag :span, I18n.t('header.disp'), :class => "badge"
               %li
-                %a{:href => "home-version-2.html"}
-                  WWA
-                  %span.badge DYSPENSARIUM
-          %li.mega-sub-menu
-            %a{:href => "#"}=I18n.t('header.license')
-            / Mega Menu
-            %ul.mega-dropdown.row
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Doctor Grid
-                  %li
-                    %a{:href => "doctors-style-1.html"} Doctor Style 1
-                  %li
-                    %a{:href => "doctors-style-2.html"} Doctor Style 2
-                  %li
-                    %a{:href => "doctors-mini.html"} Doctor Mini
-                  %li.hr
-                  %li.heading Doctor Profile
-                  %li
-                    %a{:href => "doctor-single.html"} Doctor Single
-                  %li
-                    %a{:href => "doctor-single-sidebar.html"} Doctor Single with Sidebar
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Department Grid
-                  %li
-                    %a{:href => "departments-style-1.html"} Department Style 1
-                  %li
-                    %a{:href => "departments-style-2.html"} Department Style 2
-                  %li
-                    %a{:href => "departments-mini.html"} Department Mini
-                  %li
-                    %a{:href => "departments-list.html"} Department List
-                  %li.hr
-                  %li.heading Department Details
-                  %li
-                    %a{:href => "department-single.html"} Department Single
-                  %li
-                    %a{:href => "department-single-sidebar.html"} Department Single with Sidebar
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Appointments
-                  %li
-                    %a{:href => "appointment-advanced.html"} Appointment Advanced
-                  %li
-                    %a{:href => "appointment-basic.html"} Appointment Basic
-                  %li
-                    %a{:href => "book-appointment-form.html"} Book Appointment Form
-                  %li.hr
-                  %li.heading About Medwise
-                  %li
-                    %a{:href => "about.html"} About Us
-                  %li
-                    %a{:href => "why-us.html"} Why Us
-                  %li
-                    %a{:href => "process.html"} Process
-                  %li
-                    %a{:href => "features.html"} Features
-                  %li
-                    %a{:href => "testimonials.html"} Testimonials
-                  %li
-                    %a{:href => "careers.html"} Careers
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Other Pages
-                  %li
-                    %a{:href => "gallery.html"} Gallery
-                  %li
-                    %a{:href => "events.html"} Events
-                  %li
-                    %a{:href => "download-app.html"} Download App
-                  %li
-                    %a{:href => "pricing-tables.html"} Pricing Tables
-                  %li
-                    %a{:href => "offers.html"} Offers
-                  %li
-                    %a{:href => "dos-donts.html"} Dos & Donts
-                  %li
-                    %a{:href => "question-answer.html"} Q and A
-                  %li
-                    %a{:href => "policies.html"} Policies
-                  %li
-                    %a{:href => "coming-soon.html"} Coming Soon
-                  %li
-                    %a{:href => "404.html"} 404-Not Found
+                =link_to root_path do
+                  = I18n.t('header.disp_wwa')
+                  =content_tag :span, I18n.t('header.disp'), :class => "badge"
           %li
-            %a{:href => "#"}=I18n.t('header.partners')
+            =link_to I18n.t('header.license'), root_path
+            %ul.sub-menu
+              %li.heading=I18n.t('header.disp')
+              %li
+                =link_to I18n.t('header.dispensary-mission'), root_path
+              %li
+                =link_to I18n.t('header.dispensary-how-to-open'), root_path
+              %li
+                =link_to I18n.t('header.dispensary-license'), root_path
+              %li.hr
+              %li.heading=I18n.t('header.grow')
+              %li
+                =link_to I18n.t('header.grow-mission'), root_path
+              %li
+                =link_to I18n.t('header.grow-how-to-open'), root_path
+              %li
+                =link_to I18n.t('header.grow-license'), root_path
+          %li
+            =link_to I18n.t('header.partners'), root_path
             %ul.sub-menu
               / Sub Menu
               %li
@@ -142,7 +78,7 @@
               %li
                 =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
           %li
-            %a{:href => "#"}=I18n.t('header.contact')
+            = link_to I18n.t('header.contact'), root_path
             %ul.sub-menu
               / / Sub Menu
               / %li

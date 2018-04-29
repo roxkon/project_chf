@@ -31,10 +31,11 @@
 
 pl:
   header:
-    e-mail_us: "Napisz do nas"
+    menu: "Menu"
+    email_us: "Napisz do nas"
     e-mail: "federacja@cannabishouse.eu"
     home: "Strona główna"
-    disp_points: "Dyspensaria"
+    dispensaries: "Dyspensaria"
     disp: "Dyspensarium"
     disp_ldz: "Łódź"
     disp_wwa: "Warszawa"
@@ -43,6 +44,14 @@ pl:
     ch_stow: "Stowarzyszenie Cannabis House"
     partners: "Partnerzy"
     license: "Licencja/Oferta"
+    dispensary-mission: "Misja"
+    dispensary-how-to-open: "Jak otworzyć"
+    dispensary-license: "Licencja"
+    grow: "Uprawa"
+    grow-mission: "Misja"
+    grow-how-to-open: "Jak otworzyć"
+    grow-license: "Licencja"
+
     contact: "Kontakt"
     office: "CENTRALA"
     phone_nr: "+48*73*32*32100"
