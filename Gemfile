@@ -32,7 +32,7 @@ gem 'haml-rails', '~> 1.0'
 
 #Use gem I18n for internationalization
 gem 'i18n'
-
+gem 'faker'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

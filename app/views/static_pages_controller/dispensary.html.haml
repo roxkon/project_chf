@@ -1,0 +1,16 @@
+=provide(:title, I18n.t('header.dispensary.dispensary'))
+.container
+  .col-md6
+    .row
+      %h1=I18n.t('header.dispensary.mission')
+      %p
+        =Faker::Lorem.paragraphs(20).join('\n')
+    .row
+      %h1=I18n.t('header.dispensary.how-to-open')
+      %p
+        =Faker::Lorem.paragraphs(20).join('\n')
+    .row
+      %h1=I18n.t('header.dispensary.license')
+      %p
+        =Faker::Lorem.paragraphs(20).join('\n')
+
