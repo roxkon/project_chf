@@ -31,13 +31,37 @@
 
 pl:
   header:
+    menu: "Menu"
+    email_us: "Napisz do nas"
     e-mail: "federacja@cannabishouse.eu"
+    home: "Strona główna"
+    grl: "Grass Roots Lobbing"
+    thc: "THC - Trade Hemp Center"
+    ch_stow: "Stowarzyszenie Cannabis House"
+    partners: "Partnerzy"
+    license: "Licencja/Oferta"
+    dispensary:
+      ldz: "Łódź"
+      wwa: "Warszawa"
+      dispensaries: "Dyspensaria"
+      mission: "Misja"
+      how-to-open: "Jak otworzyć"
+      license: "Licencja"
+      dispensary: "Dyspensarium"
+    growing:
+      indoor: "Uprawa"
+      mission: "Misja"
+      how-to-open: "Jak otworzyć"
+      license: "Licencja"
+    contact: "Kontakt"
+    office: "CENTRALA"
+    phone_nr: "+48*73*32*32100"
 
   footer:
     up_to_date: "Bądź z nami na bieżąco:"
     
   home: 
-    title: "zxc"
+    title: ""
 
   about: 
     title: "O nas"
@@ -46,5 +70,3 @@ pl:
     title: "Kontakt"
   
   hello: "Cześć"
-
-  

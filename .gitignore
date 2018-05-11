@@ -8,10 +8,10 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+/log/**/*
+/tmp/**/*
+!/log/.keep 
+!/tmp/.keep 
 
 # Ignore uploaded files in development
 /storage/*
@@ -29,3 +29,4 @@
 # Ignore secrets and database
 /config/database.yml
 /config/secrets.yml
+

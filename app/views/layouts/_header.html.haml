@@ -21,194 +21,76 @@
         .col-md-6
           %ul.contact
             %li
-              %span Email Us :
+              %span=I18n.t('header.email_us')
               =I18n.t('header.e-mail')
   %nav.navbar.navbar-default
     / Navigation Bar
     .container
       .navbar-header
         %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#main-navigation", "data-toggle" => "collapse", :type => "button"}
-          %span.sr-only Toggle Menu
+          %span.sr-only=I18n.t('header.menu')
           %i.fa.fa-bars
         =link_to image_tag("logo.png", alt: "logo"), {action: 'home', controller: 'static_pages_controller'}, class: 'navbar-brand'
         / Replace with your Logo
       #main-navigation.collapse.navbar-collapse
         / Main Menu
         %ul.nav.navbar-nav.navbar-right
-          %li.active
-            %a{:href => "#"} Home
-            %ul.sub-menu
-              / Sub Menu
-              %li
-                %a{:href => "home-version-1.html"}
-                  Home Version 1
-                  %span.badge Appointment Form
-              %li
-                %a{:href => "home-version-2.html"}
-                  Home Version 2
-                  %span.badge Slider Revolution
-              %li
-                %a{:href => "home-version-3.html"}
-                  Home Version 3
-                  %span.badge Video Background
-          %li.mega-sub-menu
-            %a{:href => "#"} Pages
-            / Mega Menu
-            %ul.mega-dropdown.row
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Doctor Grid
-                  %li
-                    %a{:href => "doctors-style-1.html"} Doctor Style 1
-                  %li
-                    %a{:href => "doctors-style-2.html"} Doctor Style 2
-                  %li
-                    %a{:href => "doctors-mini.html"} Doctor Mini
-                  %li.hr
-                  %li.heading Doctor Profile
-                  %li
-                    %a{:href => "doctor-single.html"} Doctor Single
-                  %li
-                    %a{:href => "doctor-single-sidebar.html"} Doctor Single with Sidebar
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Department Grid
-                  %li
-                    %a{:href => "departments-style-1.html"} Department Style 1
-                  %li
-                    %a{:href => "departments-style-2.html"} Department Style 2
-                  %li
-                    %a{:href => "departments-mini.html"} Department Mini
-                  %li
-                    %a{:href => "departments-list.html"} Department List
-                  %li.hr
-                  %li.heading Department Details
-                  %li
-                    %a{:href => "department-single.html"} Department Single
-                  %li
-                    %a{:href => "department-single-sidebar.html"} Department Single with Sidebar
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Appointments
-                  %li
-                    %a{:href => "appointment-advanced.html"} Appointment Advanced
-                  %li
-                    %a{:href => "appointment-basic.html"} Appointment Basic
-                  %li
-                    %a{:href => "book-appointment-form.html"} Book Appointment Form
-                  %li.hr
-                  %li.heading About Medwise
-                  %li
-                    %a{:href => "about.html"} About Us
-                  %li
-                    %a{:href => "why-us.html"} Why Us
-                  %li
-                    %a{:href => "process.html"} Process
-                  %li
-                    %a{:href => "features.html"} Features
-                  %li
-                    %a{:href => "testimonials.html"} Testimonials
-                  %li
-                    %a{:href => "careers.html"} Careers
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Other Pages
-                  %li
-                    %a{:href => "gallery.html"} Gallery
-                  %li
-                    %a{:href => "events.html"} Events
-                  %li
-                    %a{:href => "download-app.html"} Download App
-                  %li
-                    %a{:href => "pricing-tables.html"} Pricing Tables
-                  %li
-                    %a{:href => "offers.html"} Offers
-                  %li
-                    %a{:href => "dos-donts.html"} Dos & Donts
-                  %li
-                    %a{:href => "question-answer.html"} Q and A
-                  %li
-                    %a{:href => "policies.html"} Policies
-                  %li
-                    %a{:href => "coming-soon.html"} Coming Soon
-                  %li
-                    %a{:href => "404.html"} 404-Not Found
-          %li.mega-sub-menu
-            %a{:href => "#"} Elements
-            / Mega Menu
-            %ul.mega-dropdown.row{:style => "background-image:url('images/doc-3.png'); background-position:right top; background-repeat:no-repeat"}
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Header & Footer
-                  %li
-                    %a{:href => "page-style-1.html"} Page Style 1
-                  %li
-                    %a{:href => "page-style-2.html"} Page Style 2
-                  %li
-                    %a{:href => "page-style-3.html"} Page Style 3
-                  %li.hr
-                  %li.heading Interaction
-                  %li
-                    %a{:href => "call-to-action.html"} Call To Action
-                  %li
-                    %a{:href => "subscribe.html"} Subscribe
-                  %li
-                    %a{:href => "call-out.html"} Call Out
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Elements
-                  %li
-                    %a{:href => "icon-boxes.html"} Icon Boxes
-                  %li
-                    %a{:href => "accordion.html"} Accordion
-                  %li
-                    %a{:href => "tabs.html"} Tabs
-                  %li
-                    %a{:href => "progress-bar.html"} Progress Bars
-                  %li
-                    %a{:href => "modals.html"} Modals
-                  %li
-                    %a{:href => "carousels.html"} Carousels
-              %li.col-sm-3
-                %ul.mega-menu-items
-                  %li.heading Miscellaneous
-                  %li
-                    %a{:href => "medical-icons.html"} Medical Icons
-                  %li
-                    %a{:href => "text-sections.html"} Text Sections
-                  %li
-                    %a{:href => "quick-contact.html"} Quick Contact
-                  %li
-                    %a{:href => "video.html"} Video
-                  %li
-                    %a{:href => "counters.html"} Counters
-                  %li
-                    %a{:href => "social-media.html"} Social Media
-              %li.col-sm-3
           %li
-            %a{:href => "#"} Blog
-            %ul.sub-menu
-              / Sub Menu
-              %li
-                %a{:href => "blog-list.html"} Blog List
-              %li
-                %a{:href => "blog-single.html"} Blog Single
-              %li
-                %a{:href => "widgets.html"} Sidebar Widgets
+            =link_to I18n.t('header.home'), controller: "static_pages_controller", action: "home"
           %li
-            %a{:href => "#"} Contact
+            =link_to I18n.t('header.dispensary.dispensaries'), root_path
             %ul.sub-menu
               / Sub Menu
               %li
-                %a{:href => "contact-1.html"} Contact Version 1
+                =link_to root_path do
+                  = I18n.t('header.dispensary.ldz')
+                  =content_tag :span, I18n.t('header.dispensary.dispensary'), :class => "badge"
               %li
-                %a{:href => "contact-2.html"} Contact Version 2
+                =link_to root_path do
+                  = I18n.t('header.dispensary.wwa')
+                  =content_tag :span, I18n.t('header.dispensary.dispensary'), :class => "badge"
+          %li
+            =link_to I18n.t('header.license'), root_path
+            %ul.sub-menu
+              %li.heading=I18n.t('header.dispensary.dispensary')
               %li
-                %a{:href => "contact-3.html"} Contact Version 3
+                =link_to I18n.t('header.dispensary.mission'), controller: "static_pages_controller", action: "dispensary"
+              %li
+                =link_to I18n.t('header.dispensary.how-to-open'), controller: "static_pages_controller", action: "dispensary"
+              %li
+                =link_to I18n.t('header.dispensary.license'), controller: "static_pages_controller", action: "dispensary"
+              %li.hr
+              %li.heading=I18n.t('header.growing.indoor')
+              %li
+                =link_to I18n.t('header.growing.mission'), root_path
+              %li
+                =link_to I18n.t('header.growing.how-to-open'), root_path
+              %li
+                =link_to I18n.t('header.growing.license'), root_path
+          %li
+            =link_to I18n.t('header.partners'), root_path
+            %ul.sub-menu
+              / Sub Menu
+              %li
+                =link_to I18n.t('header.ch_stow'), "https://www.cannabishouse.eu", target: "_blank"
+              %li
+                =link_to I18n.t('header.thc'), "https://www.tradehempcenter.pl", target: "_blank"
+              %li
+                =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
+          %li
+            = link_to I18n.t('header.contact'), root_path
+            %ul.sub-menu
+              / / Sub Menu
+              / %li
+              /   %a{:href => "contact-1.html"} Contact Version 1
+              / %li
+              /   %a{:href => "contact-2.html"} Contact Version 2
+              / %li
+              /   %a{:href => "contact-3.html"} Contact Version 3
           %li
             %span.emergency
               / Emergency Number
               %i.fa.fa-mobile
-              %span.number +48*73*32*32100
+              %span.number=I18n.t('header.phone_nr')
               %br/
-              %span.sub-text CENTRALA
+              %span.sub-text=I18n.t('header.office')
