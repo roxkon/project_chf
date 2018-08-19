@@ -8,9 +8,6 @@ class StaticPagesControllerController < ApplicationController
   def contact
   end
 
-  def dispensary
-  end
-
-  def grow    
+  def hub
   end
 end

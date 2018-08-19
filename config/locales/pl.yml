@@ -35,38 +35,47 @@ pl:
     email_us: "Napisz do nas"
     e-mail: "biuro@cannahub.eu"
     home: "Strona główna"
+    about: "O nas"
     grl: "Grass Roots Lobbing"
     thc: "THC - Trade Hemp Center"
     ch_stow: "Stowarzyszenie Cannabis House"
     partners: "Partnerzy"
     offer: "Oferta"
-    dispensary:
-      ldz: "Łódź"
-      wwa: "Warszawa"
-      dispensaries: "Dyspensaria"
+    hub:
+      hub: "Canna HUB"
       mission: "Misja"
-      how-to-open: "Jak otworzyć"
-      license: "Licencja"
-      dispensary: "Dyspensarium"
-    growing:
-      indoor: "Uprawa"
-      mission: "Misja"
-      how-to-open: "Jak otworzyć"
-      license: "Licencja"
+      vision: "Wizja"
     contact: "Kontakt"
     office: "CannaHub"
     phone_nr: "+48 110 101 011"
 
   footer:
     up_to_date: "Bądź z nami na bieżąco:"
-    
+
   home: 
-    title: ""
+    title: "Strona Główna"
 
   about: 
     title: "O nas"
-    
+    act: "Ustawa"
+
+  hub:
+    title: "Projekt HUBa"
+    mission: "Misja"
+    vision: "Wizja"
+
   contact: 
     title: "Kontakt"
+    visit_us: "Odwiedź nas:"
+    working_time: "Nasze biuro pracuje od poniedziałku do piątku w godzinach od 10 do 16."
+    adress1: "ul. Erazma Ciołka 17"
+    adress2: "01-445 Warszawa, Polska"
+    contact_us: "Skontaktuj się z nami."
+    first_name: "Imię"
+    last_name:  "Nazwisko"
+    email: "Twój adres e-mail"
+    subject: "Temat wiadomości"
+    message: "Tutaj wpisz treść wiadomości."
+    submit: "Wyślij"
   
   hello: "Cześć"

@@ -1,4 +1,56 @@
 =provide(:title, I18n.t('contact.title'))
-%h1 Contact
-.well 
-  %p Canna Hub!
+.page-header
+  .container.mt-80
+    .row
+      .col-sm-12
+        .mt-20
+      .col-sm-4.mt-20
+        %h3.heading Visit Us
+        %p.justify Nasze biuro pracuje od poniedziałku do piątku w godzinach od 10 do 16.
+        %br/
+        %address
+          %strong Canna Hub Sp. z o.o.
+          %br/
+          ul. Erazma Ciołka 17, 
+          %br/
+          01-445 Warszawa, Polska
+          %br/
+        %ul.contact-list.contact-list-2x
+          %li
+            %i.fa.fa-phone
+            +48 777 777 777
+          %li
+            %i.fa.fa-envelope
+            biuro@cannahub.eu
+        %br/
+      .col-sm-8.mt-20
+        %h3.heading
+          Contact Us.
+          %span.color1 We love hearing from you.
+        %form#main-contact-form
+          .row
+            .col-sm-4
+              .form-group
+                %input#fname.form-control{:name => "fname", :placeholder => "Your First Name", :type => "text"}/
+            .col-sm-6
+              .form-group
+                %input#lname.form-control{:name => "lname", :placeholder => "Your Last Name", :type => "text"}/
+          .form-group
+            %input#email.form-control{:name => "email", :placeholder => "Your Email Id", :type => "text"}/
+          .form-group
+            %input#subject.form-control{:name => "subject", :placeholder => "Your Subject Line", :type => "text"}/
+          .form-group
+            %textarea#message.form-control{:name => "message", :placeholder => "Please enter your message", :rows => "5"}
+          %p#status
+          .form-group
+            %button.btn.btn-primary{:name => "submit", :type => "submit"}
+              %i.fa.fa-paper-plane
+              Submit Query
+
+  .container-fluid.mt-80
+    .row
+      .col-sm-12.no-gutter
+        / Replace Latitude, Logitude and Info Window as per your place
+        #gmap.gmap{"data-info-win" => "<strong>Canna Hub Sp. z o.o.</strong><br/><span>ul. Ciołka 17<br/> Warszawa, Polska</span>", "data-lat" => "20.944292", "data-long" => "52.243155"}
+  #back
+    %i.fa.fa-angle-up

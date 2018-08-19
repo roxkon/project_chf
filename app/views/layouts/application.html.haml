@@ -4,7 +4,7 @@
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
     %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
-    %meta{:content => "Cannabis House Spółka z o.o.", :name => "description"}/
+    %meta{:content => "Canna Hub Spółka z o.o.", :name => "description"}/
     %meta{:content => "APIIINSTYTUT", :name => "author"}/
     / / Favicon
     / %link{:href => "favicon.ico", :rel => "icon", :type => "image/x-icon"}/
@@ -26,5 +26,16 @@
   %body
     -#= render 'layouts/loader'
     = render 'layouts/header'
+    = render 'layouts/slider'
     = yield
     = render 'layouts/footer'
+
+/ Permission for Setting Cookies
+.alert.alert-dismissible.alert-cookies
+  .container
+    .row
+      .col-sm-12
+        Szanowna Użytkowniczko! Szanowny Użytkowniku!
+        Aby dalej móc dostarczać coraz lepsze materiały redakcyjne i udostępniać coraz lepsze usługi, potrzebujemy zgody na dopasowanie treści marketingowych do Twojego zachowania. Dzięki nim możemy finansować rozwój naszych usług. Dbamy o Twoją prywatność. Nie zwiększamy zakresu naszych uprawnień. Twoje dane są u nas bezpieczne, a zgodę możesz wycofać w każdej chwili na podstronie polityka prywatności.
+        \  
+        %button.btn.btn-primary.btn-sm{"data-dismiss" => "alert", :type => "button"} Akceptuję

@@ -38,35 +38,15 @@
           %li
             =link_to I18n.t('header.home'), controller: "static_pages_controller", action: "home"
           %li
-            =link_to I18n.t('header.dispensary.dispensaries'), root_path
-            %ul.sub-menu
-              / Sub Menu
-              %li
-                =link_to root_path do
-                  = I18n.t('header.dispensary.ldz')
-                  =content_tag :span, I18n.t('header.dispensary.dispensary'), :class => "badge"
-              %li
-                =link_to root_path do
-                  = I18n.t('header.dispensary.wwa')
-                  =content_tag :span, I18n.t('header.dispensary.dispensary'), :class => "badge"
+            =link_to I18n.t('header.about'), controller: "static_pages_controller", action: "about"
           %li
-            =link_to I18n.t('header.offer'), root_path
+            =link_to I18n.t('header.offer'), controller: "static_pages_controller", action: "hub"
             %ul.sub-menu
-              %li.heading=I18n.t('header.dispensary.dispensary')
+              %li.heading=I18n.t('header.hub.hub')
               %li
-                =link_to I18n.t('header.dispensary.mission'), controller: "static_pages_controller", action: "dispensary"
+                =link_to I18n.t('header.hub.mission'), controller: "static_pages_controller", action: "hub"
               %li
-                =link_to I18n.t('header.dispensary.how-to-open'), controller: "static_pages_controller", action: "dispensary"
-              %li
-                =link_to I18n.t('header.dispensary.license'), controller: "static_pages_controller", action: "dispensary"
-              %li.hr
-              %li.heading=I18n.t('header.growing.indoor')
-              %li
-                =link_to I18n.t('header.growing.mission'), root_path
-              %li
-                =link_to I18n.t('header.growing.how-to-open'), root_path
-              %li
-                =link_to I18n.t('header.growing.license'), root_path
+                =link_to I18n.t('header.hub.vision'), controller: "static_pages_controller", action: "hub"
           %li
             =link_to I18n.t('header.partners'), root_path
             %ul.sub-menu
@@ -78,15 +58,7 @@
               %li
                 =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
           %li
-            = link_to I18n.t('header.contact'), root_path
-            %ul.sub-menu
-              / / Sub Menu
-              / %li
-              /   %a{:href => "contact-1.html"} Contact Version 1
-              / %li
-              /   %a{:href => "contact-2.html"} Contact Version 2
-              / %li
-              /   %a{:href => "contact-3.html"} Contact Version 3
+            = link_to I18n.t('header.contact'), controller: "static_pages_controller", action: "contact"
           %li
             %span.emergency
               / Emergency Number
