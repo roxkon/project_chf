@@ -50,8 +50,8 @@ puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
-  [1m[35m (323.1ms)[0m  [1m[35mCREATE DATABASE "canna_medica_development" ENCODING = 'unicode'[0m
-  [1m[35m (243.9ms)[0m  [1m[35mCREATE DATABASE "canna_medica_test" ENCODING = 'unicode'[0m
+  [1m[35m (323.1ms)[0m  [1m[35mCREATE DATABASE "canna_hub_development" ENCODING = 'unicode'[0m
+  [1m[35m (243.9ms)[0m  [1m[35mCREATE DATABASE "canna_hub_test" ENCODING = 'unicode'[0m
   [1m[35m (26.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
   [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
   [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(3231218323929958110)[0m
@@ -161,7 +161,7 @@ Completed 500 Internal Server Error in 616ms (ActiveRecord: 0.0ms)
 
   
 ActionView::Template::Error (Missing partial layouts/_loader with {:locale=>[:pl], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
-  * "/Users/wolak/workspace/cannabis-house/canna_medica/app/views"
+  * "/Users/wolak/workspace/cannabis-house/canna_hub/app/views"
 ):
     24:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     25:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
@@ -1314,20 +1314,20 @@ Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
   
 ActionView::Template::Error (couldn't find file 'font-awesome' with type 'text/css'
 Checked in these paths: 
-  /Users/wolak/workspace/cannabis-house/canna_medica/app/assets/config
-  /Users/wolak/workspace/cannabis-house/canna_medica/app/assets/images
-  /Users/wolak/workspace/cannabis-house/canna_medica/app/assets/javascripts
-  /Users/wolak/workspace/cannabis-house/canna_medica/app/assets/stylesheets
-  /Users/wolak/workspace/cannabis-house/canna_medica/vendor/assets/fonts
-  /Users/wolak/workspace/cannabis-house/canna_medica/vendor/assets/images
-  /Users/wolak/workspace/cannabis-house/canna_medica/vendor/assets/javascripts
-  /Users/wolak/workspace/cannabis-house/canna_medica/vendor/assets/stylesheets
+  /Users/wolak/workspace/cannabis-house/canna_hub/app/assets/config
+  /Users/wolak/workspace/cannabis-house/canna_hub/app/assets/images
+  /Users/wolak/workspace/cannabis-house/canna_hub/app/assets/javascripts
+  /Users/wolak/workspace/cannabis-house/canna_hub/app/assets/stylesheets
+  /Users/wolak/workspace/cannabis-house/canna_hub/vendor/assets/fonts
+  /Users/wolak/workspace/cannabis-house/canna_hub/vendor/assets/images
+  /Users/wolak/workspace/cannabis-house/canna_hub/vendor/assets/javascripts
+  /Users/wolak/workspace/cannabis-house/canna_hub/vendor/assets/stylesheets
   /Users/wolak/.rvm/gems/ruby-2.5.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
   /Users/wolak/.rvm/gems/ruby-2.5.0/gems/actioncable-5.2.0.beta2/lib/assets/compiled
   /Users/wolak/.rvm/gems/ruby-2.5.0/gems/activestorage-5.2.0.beta2/app/assets/javascripts
   /Users/wolak/.rvm/gems/ruby-2.5.0/gems/actionview-5.2.0.beta2/lib/assets/compiled
   /Users/wolak/.rvm/gems/ruby-2.5.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts
-  /Users/wolak/workspace/cannabis-house/canna_medica/node_modules
+  /Users/wolak/workspace/cannabis-house/canna_hub/node_modules
   /Users/wolak/.rvm/gems/ruby-2.5.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
   /Users/wolak/.rvm/gems/ruby-2.5.0/gems/bootstrap-sass-3.3.7/assets/javascripts
   /Users/wolak/.rvm/gems/ruby-2.5.0/gems/bootstrap-sass-3.3.7/assets/fonts
@@ -1828,3 +1828,101 @@ puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.0) lib/puma/server.rb:438:in `process_client'
 puma (3.11.0) lib/puma/server.rb:302:in `block in run'
 puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-19 11:00:46 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesControllerController#home as HTML
+  Rendering static_pages_controller/home.html.haml within layouts/application
+  Rendered static_pages_controller/home.html.haml within layouts/application (449.7ms)
+  Rendered layouts/_header.html.haml (14.6ms)
+  Rendered layouts/_footer.html.haml (7.4ms)
+Completed 200 OK in 616ms (Views: 609.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-19 11:04:29 +0200
+Processing by StaticPagesControllerController#home as HTML
+  Rendering static_pages_controller/home.html.haml within layouts/application
+  Rendered static_pages_controller/home.html.haml within layouts/application (145.9ms)
+  Rendered layouts/_header.html.haml (16.4ms)
+  Rendered layouts/_footer.html.haml (7.5ms)
+Completed 200 OK in 238ms (Views: 236.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-19 11:06:44 +0200
+Processing by StaticPagesControllerController#home as HTML
+  Rendering static_pages_controller/home.html.haml within layouts/application
+  Rendered static_pages_controller/home.html.haml within layouts/application (165.4ms)
+  Rendered layouts/_header.html.haml (17.0ms)
+  Rendered layouts/_footer.html.haml (5.6ms)
+Completed 200 OK in 251ms (Views: 249.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-19 11:08:30 +0200
+Processing by StaticPagesControllerController#home as HTML
+  Rendering static_pages_controller/home.html.haml within layouts/application
+  Rendered static_pages_controller/home.html.haml within layouts/application (110.0ms)
+  Rendered layouts/_header.html.haml (13.3ms)
+  Rendered layouts/_footer.html.haml (5.7ms)
+Completed 200 OK in 189ms (Views: 188.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-19 11:09:39 +0200
+Processing by StaticPagesControllerController#home as HTML
+  Rendering static_pages_controller/home.html.haml within layouts/application
+  Rendered static_pages_controller/home.html.haml within layouts/application (105.3ms)
+  Rendered layouts/_header.html.haml (35.7ms)
+  Rendered layouts/_footer.html.haml (5.6ms)
+Completed 200 OK in 553ms (Views: 552.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-19 11:09:51 +0200
+Processing by StaticPagesControllerController#home as HTML
+  Rendering static_pages_controller/home.html.haml within layouts/application
+  Rendered static_pages_controller/home.html.haml within layouts/application (100.7ms)
+  Rendered layouts/_header.html.haml (12.4ms)
+  Rendered layouts/_footer.html.haml (6.4ms)
+Completed 200 OK in 183ms (Views: 181.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-19 11:09:56 +0200
+Processing by StaticPagesControllerController#home as HTML
+  Rendering static_pages_controller/home.html.haml within layouts/application
+  Rendered static_pages_controller/home.html.haml within layouts/application (122.6ms)
+  Rendered layouts/_header.html.haml (16.7ms)
+  Rendered layouts/_footer.html.haml (5.9ms)
+Completed 200 OK in 224ms (Views: 223.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-19 11:09:57 +0200
+Processing by StaticPagesControllerController#home as HTML
+  Rendering static_pages_controller/home.html.haml within layouts/application
+  Rendered static_pages_controller/home.html.haml within layouts/application (125.0ms)
+  Rendered layouts/_header.html.haml (14.9ms)
+  Rendered layouts/_footer.html.haml (5.7ms)
+Completed 200 OK in 212ms (Views: 211.5ms)
+
+
+Started GET "/static_pages_controller/dispensary" for 127.0.0.1 at 2018-08-19 11:09:58 +0200
+Processing by StaticPagesControllerController#dispensary as HTML
+  Rendering static_pages_controller/dispensary.html.haml within layouts/application
+  Rendered static_pages_controller/dispensary.html.haml within layouts/application (19.0ms)
+  Rendered layouts/_header.html.haml (13.5ms)
+  Rendered layouts/_footer.html.haml (6.5ms)
+Completed 200 OK in 104ms (Views: 102.7ms)
+
+
+Started GET "/static_pages_controller/about" for 127.0.0.1 at 2018-08-19 11:10:15 +0200
+Processing by StaticPagesControllerController#about as HTML
+  Rendering static_pages_controller/about.html.haml within layouts/application
+  Rendered static_pages_controller/about.html.haml within layouts/application (225.9ms)
+  Rendered layouts/_header.html.haml (11.7ms)
+  Rendered layouts/_footer.html.haml (6.1ms)
+Completed 200 OK in 303ms (Views: 302.1ms)
+
+
+Started GET "/static_pages_controller/about" for 127.0.0.1 at 2018-08-19 11:11:17 +0200
+  
+SyntaxError (/home/r0xk0n/w0rk/ror/project_chf/config/routes.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...atic_pages_controller/about' as: '/about'
+...                             ^~):
+  
+config/routes.rb:4: syntax error, unexpected tIDENTIFIER, expecting keyword_end

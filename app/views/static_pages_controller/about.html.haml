@@ -1,3 +1,28 @@
 =provide(:title, I18n.t('about.title'))
-%h1 About
-%p Canna Medica!
+.container.mt-80
+  .row
+    .col-sm-12
+      .heading-block
+        %h2.heading
+          Uwarunkowania
+          %span.color1 Prawne
+        %p.sub-heading Od 1 listopada 2017r. przepisy prawa regulują rejestrację, wytwarzanie i wprowadzanie do obrotu w Polsce preparatów medycznych na bazie konopi oraz stosowanie zarejestrowanych preparatów w lecznictwie.
+  .row
+    .col-sm-7
+      %p.justify 
+        Zgodnie z regulacją:
+        %br
+        &nbsp&nbsp– do obrotu mogą być dopuszczone zarówno leki gotowe pochodzenia roślinnego we wskazaniach obejmujących zdefiniowane jednostki chorobowe, jak również standaryzowane surowce w postaci roślinnej (suszone kwiatostany) oraz w postaci wyciągów przeznaczone do sporządzania leków recepturowych w aptece na podstawie preskrypcji lekarskiej bądź przeznaczone do dalszego procesu produkcyjnego jako substancje czynne.
+        %br
+        &nbsp&nbsp– leki pierwszej kategorii, dopuszczone na podstawie badań klinicznych, mogą być warunkowo objęte finansowaniem rządowym, natomiast produkty w postaci surowców farmaceutycznych są z tej możliwości ustawowo wyłączone.
+        %br
+        %b Dla każdej kategorii produktów obowiązują szczegółowe regulacje określające specyficzne warunki rejestracji, wytwarzania i obrotu na terytorium RP zgodne z wymogami EU.
+      .row.mt-40
+        .col-sm-6
+          %h4 Centralny Punkt
+          %p Specyficzna konstrukcja regulacji pozwala na utworzenie na terytorium Polski centralnego punktu wytwarzania substancji czynnej oraz surowca farmaceutycznego przeznaczonego na rynek całej Unii Europejskiej.
+        .col-sm-6
+          %h4 Podstawa prawna
+          %p Ustawa z dnia 7 lipca 2017 r. o zmianie ustawy o przeciwdziałaniu narkomanii oraz ustawy o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych Dziennik Ustaw
+    .col-sm-5.mt-20
+      =image_tag("low1.png", alt: "O to walczymy!", class: "img-responsive")
