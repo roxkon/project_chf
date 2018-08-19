@@ -33,13 +33,13 @@ pl:
   header:
     menu: "Menu"
     email_us: "Napisz do nas"
-    e-mail: "federacja@cannabishouse.eu"
+    e-mail: "biuro@cannahub.eu"
     home: "Strona główna"
     grl: "Grass Roots Lobbing"
     thc: "THC - Trade Hemp Center"
     ch_stow: "Stowarzyszenie Cannabis House"
     partners: "Partnerzy"
-    license: "Licencja/Oferta"
+    offer: "Oferta"
     dispensary:
       ldz: "Łódź"
       wwa: "Warszawa"
@@ -54,8 +54,8 @@ pl:
       how-to-open: "Jak otworzyć"
       license: "Licencja"
     contact: "Kontakt"
-    office: "CENTRALA"
-    phone_nr: "+48*73*32*32100"
+    office: "CannaHub"
+    phone_nr: "+48 110 101 011"
 
   footer:
     up_to_date: "Bądź z nami na bieżąco:"

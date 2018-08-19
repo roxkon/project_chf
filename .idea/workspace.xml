@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/canna_medica@Development__canna_medica.coverage" NAME="Development: canna_medica Coverage Results" MODIFIED="1523117549209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="canna_medica" />
+    <SUITE FILE_PATH="coverage/canna_hub@Development__canna_hub.coverage" NAME="Development: canna_hub Coverage Results" MODIFIED="1523117549209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="canna_hub" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -292,8 +292,8 @@
       <find>node</find>
       <find>rspec</find>
       <find>boot</find>
-      <find>canna_medica</find>
-      <find>CANNA_MEDICA</find>
+      <find>canna_hub</find>
+      <find>canna_hub</find>
       <find>playground</find>
       <find>font-face</find>
       <find>font-fam</find>
@@ -382,123 +382,123 @@
         <subPane>
           <expand>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="static_pages_controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="initializers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="canna_medica" type="462c0819:PsiDirectoryNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="railties (v5.2.0.beta2, RVM: ruby-2.5.0) [gem]" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="railties (v5.2.0.beta2, RVM: ruby-2.5.0) [gem]" type="70bed36:NamedLibraryElementNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="canna_medica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="canna_hub" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="railties (v5.2.0.beta2, RVM: ruby-2.5.0) [gem]" type="70bed36:NamedLibraryElementNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
@@ -531,10 +531,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: canna_medica">
-    <configuration name="Development: canna_medica" type="RailsRunConfigurationType" factoryName="Rails">
+  <component name="RunManager" selected="Rails.Development: canna_hub">
+    <configuration name="Development: canna_hub" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="canna_medica" />
+      <module name="canna_hub" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -556,9 +556,9 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
     </configuration>
-    <configuration name="Production: canna_medica" type="RailsRunConfigurationType" factoryName="Rails">
+    <configuration name="Production: canna_hub" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="canna_medica" />
+      <module name="canna_hub" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -580,8 +580,8 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
     </configuration>
-    <configuration name="spec: canna_medica" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="canna_medica" />
+    <configuration name="spec: canna_hub" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="canna_hub" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -602,8 +602,8 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
     </configuration>
-    <configuration name="test: canna_medica" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="canna_medica" />
+    <configuration name="test: canna_hub" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="canna_hub" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -627,10 +627,10 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test: canna_medica" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec: canna_medica" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: canna_medica" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: canna_medica" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.test: canna_hub" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec: canna_hub" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: canna_hub" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: canna_hub" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
