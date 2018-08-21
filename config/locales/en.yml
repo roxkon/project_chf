@@ -31,17 +31,49 @@
 
 en:
   header:
-    e-mail: "federacja@cannabishouse.eu" 
+    menu: "Menu"
+    email_us: "E-mail Us"
+    e-mail: "biuro@cannahub.eu"
+    home: "Home"
+    about: "About"
+    grl: "Grass Roots Lobbing"
+    thc: "THC - Trade Hemp Center"
+    ch_stow: "Stowarzyszenie Cannabis House"
+    partners: "Partners"
+    offer: "Offer"
+    hub:
+      hub: "Canna HUB"
+      mission: "Mission"
+      vision: "Vision"
+    contact: "Contact"
+    office: "CannaHub"
+    phone_nr: "+48 110 101 011"
+
+  footer:
+    up_to_date: "Stay up to date"
 
   home: 
     title: "Home"
 
   about: 
     title: "About"
+    act: "act"
+
+  hub:
+    title: "Project CannaHUB"
+    mission: "Mission"
+    vision: "Vision"
 
   contact: 
     title: "Contact"
-
-  hello: "Hello"
-
-
+    visit_us: "Visit Us:"
+    working_time: "Our company works from mondey till friday between 10 am and 4:20 pm"
+    adress1: "ul. Erazma Ciołka 17"
+    adress2: "01-445 Warszawa, Polska"
+    contact_us: "Contact Us"
+    first_name: "First Name"
+    last_name:  "Last Name"
+    email: "Your e-mail"
+    subject: "Subject"
+    message: "Write Your message here"
+    submit: "Send"

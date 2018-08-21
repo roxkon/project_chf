@@ -29,40 +29,40 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-pl:
+de:
   header:
-    menu: "Menu"
-    email_us: "Napisz do nas"
+    menu: "Menü"
+    email_us: "Schreib uns"
     e-mail: "biuro@cannahub.eu"
-    home: "Strona główna"
-    about: "O nas"
+    home: "Startseite"
+    about: "Über uns"
     grl: "Grass Roots Lobbing"
     thc: "THC - Trade Hemp Center"
     ch_stow: "Stowarzyszenie Cannabis House"
-    partners: "Partnerzy"
-    offer: "Oferta"
+    partners: "Partner"
+    offer: "Angebot"
     hub:
       hub: "Canna HUB"
-      mission: "Misja"
-      vision: "Wizja"
-    contact: "Kontakt"
+      mission: "Mission"
+      vision: "Vorstellung"
+    contact: "Verbindung"
     office: "CannaHub"
     phone_nr: "+48 110 101 011"
 
   footer:
-    up_to_date: "Bądź z nami na bieżąco:"
+    up_to_date: "Bleiben Sie regelmäßig bei uns:"
 
   home: 
-    title: "Strona Główna"
+    title: "Startseite"
 
   about: 
-    title: "O nas"
-    act: "Ustawa"
+    title: "Über uns"
+    act: "Gesetz"
 
   hub:
-    title: "Projekt HUBa"
-    mission: "Misja"
-    vision: "Wizja"
+    title: "Projekt CannaHUB"
+    mission: "Mission"
+    vision: "Vision"
 
   contact: 
     title: "Kontakt"
