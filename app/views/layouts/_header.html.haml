@@ -7,17 +7,11 @@
         .col-sm-6
           %ul.social
             %li
-              %a{:href => ""}
-                %i.fa.fa-facebook
+              = link_to 'en', url_for(locale: :en)
             %li
-              %a{:href => ""}
-                %i.fa.fa-twitter
+              = link_to 'de', url_for(:locale => 'de')
             %li
-              %a{:href => ""}
-                %i.fa.fa-linkedin
-            %li
-              %a{:href => ""}
-                %i.fa.fa-vimeo
+              = link_to 'pl', url_for(locale: 'pl')
         .col-md-6
           %ul.contact
             %li
