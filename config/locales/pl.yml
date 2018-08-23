@@ -58,6 +58,21 @@ pl:
   about: 
     title: "O nas"
     act: "Ustawa"
+    considerations: "Uwarunkowania"
+    considerations_leg: "Prawne"
+    considerations_cont: "Od 1 listopada 2017r. przepisy prawa regulują rejestrację, wytwarzanie i wprowadzanie do obrotu w Polsce preparatów medycznych na bazie konopi oraz stosowanie zarejestrowanych preparatów w lecznictwie."
+    issue_control: "Zgodnie z regulacją:"
+    issue_1: "do obrotu mogą być dopuszczone zarówno leki gotowe pochodzenia roślinnego we wskazaniach obejmujących zdefiniowane jednostki chorobowe, jak również standaryzowane surowce w postaci roślinnej (suszone kwiatostany) oraz w postaci wyciągów przeznaczone do sporządzania leków recepturowych w aptece na podstawie preskrypcji lekarskiej bądź przeznaczone do dalszego procesu produkcyjnego jako substancje czynne."
+    issue_2: "leki pierwszej kategorii, dopuszczone na podstawie badań klinicznych, mogą być warunkowo objęte finansowaniem rządowym, natomiast produkty w postaci surowców farmaceutycznych są z tej możliwości ustawowo wyłączone."
+    issue_3: "Dla każdej kategorii produktów obowiązują szczegółowe regulacje określające specyficzne warunki rejestracji, wytwarzania i obrotu na terytorium RP zgodne z wymogami EU."
+    central_point: "Centralny Punkt"
+    central_main: "Specyficzna konstrukcja regulacji pozwala na utworzenie na terytorium Polski centralnego punktu wytwarzania substancji czynnej oraz surowca farmaceutycznego przeznaczonego na rynek całej Unii Europejskiej."
+    legal_basis: "Podstawa prawna"
+    legal_main: "z dnia 7 lipca 2017 r. o zmianie ustawy o przeciwdziałaniu narkomanii oraz ustawy o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych"
+
+
+
+
 
   hub:
     title: "Projekt HUBa"
