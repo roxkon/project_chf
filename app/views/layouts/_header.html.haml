@@ -34,15 +34,7 @@
           %li
             =link_to I18n.t('header.about'), controller: "static_pages_controller", action: "about"
           %li
-            =link_to I18n.t('header.offer'), controller: "static_pages_controller", action: "hub"
-            %ul.sub-menu
-              %li.heading=I18n.t('header.hub.hub')
-              %li
-                =link_to I18n.t('header.hub.mission'), controller: "static_pages_controller", action: "hub"
-              %li
-                =link_to I18n.t('header.hub.vision'), controller: "static_pages_controller", action: "hub"
-          %li
-            =link_to I18n.t('header.partners'), root_path
+            =link_to I18n.t('header.partners'), controller: "static_pages_controller", action: "partners"
             %ul.sub-menu
               / Sub Menu
               %li

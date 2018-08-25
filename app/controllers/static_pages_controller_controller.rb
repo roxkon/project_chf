@@ -8,6 +8,6 @@ class StaticPagesControllerController < ApplicationController
   def contact
   end
 
-  def hub
+  def partners
   end
 end
