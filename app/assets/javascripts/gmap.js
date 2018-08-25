@@ -3,7 +3,7 @@ function initMap() {
   // The location of CannaHub
   var cannahub = {lat: 52.243155, lng: 20.944292};
   // InwoWindow - text to display after click on marker
-  var contentString = '<strong>Canna Hub Sp. z o.o.</strong><br/><span>ul. Ciołka 17<br/> Warszawa, Polska</span>';
+  var contentString = '<strong>Canna Hub Sp. z o.o.</strong><br/><span>ul. Ciołka 17<br/> Warszawa, Polska<br/>+48 501 100 901</span>';
   var infowindow = new google.maps.InfoWindow({
             content: contentString
   });
@@ -14,7 +14,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: cannahub, 
     map: map,
-    title: 'Canna Hub Sp. z o.o. \nul. Ciołka 17 Warszawa, Polska',
+    title: 'Canna Hub Sp. z o.o.\nul. Ciołka 17 Warszawa, Polska',
   });
   google.maps.event.addListener(marker, 'click', function() {
     infowindow.open(map,marker);

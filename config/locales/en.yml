@@ -46,8 +46,8 @@ en:
       mission: "Mission"
       vision: "Vision"
     contact: "Contact"
-    office: "CannaHub"
-    phone_nr: "+48 110 101 011"
+    office: "+48 22 100 22 31"
+    phone_nr: "+48 501 100 901"
 
   footer:
     up_to_date: "Stay up to date"
@@ -57,7 +57,7 @@ en:
 
   about: 
     title: "About"
-    act: "act"
+    act: "Act"
 
   hub:
     title: "Project CannaHUB"

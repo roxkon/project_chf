@@ -46,8 +46,8 @@ pl:
       mission: "Misja"
       vision: "Wizja"
     contact: "Kontakt"
-    office: "CannaHub"
-    phone_nr: "+48 110 101 011"
+    office: "+48 22 100 22 31 "
+    phone_nr: "+48 501 100 901"
 
   footer:
     up_to_date: "Bądź z nami na bieżąco:"
@@ -69,10 +69,6 @@ pl:
     central_main: "Specyficzna konstrukcja regulacji pozwala na utworzenie na terytorium Polski centralnego punktu wytwarzania substancji czynnej oraz surowca farmaceutycznego przeznaczonego na rynek całej Unii Europejskiej."
     legal_basis: "Podstawa prawna"
     legal_main: "z dnia 7 lipca 2017 r. o zmianie ustawy o przeciwdziałaniu narkomanii oraz ustawy o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych"
-
-
-
-
 
   hub:
     title: "Projekt HUBa"
