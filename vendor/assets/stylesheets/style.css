@@ -2596,26 +2596,6 @@ blockquote footer{
     display: inline-block;
 }
 
-/* Google Maps */
-
-.gmap{
-    height: 500px;
-}
-
-/* Google Map Address */
-
-.gmap-address{
-    overflow: hidden;
-    position: relative;
-}
-
-.gmap-address .address{
-    background-color: rgba(48,59,65,0.95);
-    color: #fff;
-    position: absolute;
-    z-index: 10;
-    padding:20px;
-}
 
 /* Back To Top */
 

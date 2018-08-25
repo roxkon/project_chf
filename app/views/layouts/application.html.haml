@@ -15,11 +15,7 @@
     / Google Fonts
     %link{:href => "https://fonts.googleapis.com/css?family=Exo+2|Open+Sans:300,400,700", :rel => "stylesheet"}/
     %link{:href => "https://fonts.googleapis.com/css?family=Exo+2|Volkhov:400,400i", :rel => "stylesheet"}/
-    / Load the API from the specified URL
-    / The async attribute allows the browser to render the page while the API loads
-    / The key parameter will contain your own API key (which is not needed for this tutorial)
-    / The callback parameter executes the initMap() function
-    %script{:async => "", :defer => "defer", :src => "https://maps.googleapis.com/maps/api/js?key=#{ENV["GOOGLE_MAPS_KEY"]}&callback=initMap", :type => "text/javascript"}
+
     / Respond.js and HTML shiv provide HTML5 support in older browsers like IE9 and 8
     /[if lt IE 9]
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
