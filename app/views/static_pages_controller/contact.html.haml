@@ -50,7 +50,10 @@
   .container-fluid.mt-80
     .row
       .col-sm-12.no-gutter
-        / Replace Latitude, Logitude and Info Window as per your place
-        #gmap.gmap{"data-info-win" => "<strong>Canna Hub Sp. z o.o.</strong><br/><span>ul. Ciołka 17<br/> Warszawa, Polska</span>", "data-lat" => "20.944292", "data-long" => "52.243155"}
+        %h3 CannaHUB
+        / The div element for the map
+        #map
+        / / Replace Latitude, Logitude and Info Window as per your place
+        / #gmap.gmap{"data-info-win" => "<strong>Canna Hub Sp. z o.o.</strong><br/><span>ul. Ciołka 17<br/> Warszawa, Polska</span>", "data-lat" => "20.944292", "data-long" => "52.243155"}
   #back
     %i.fa.fa-angle-up

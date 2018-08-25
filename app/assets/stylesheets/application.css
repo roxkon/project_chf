@@ -19,6 +19,7 @@
  *= require fonts
  *= require layers
  *= require navigation
+ *= require gmap
  *= require settings
  *= require_tree .
  *= require_self

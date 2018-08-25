@@ -20,6 +20,7 @@
 //= require circle-progress.min
 //= require owl.carousel.min
 //= require script
+//= require gmap
 //= require jquery.themepunch.enablelog
 //= require jquery.themepunch.revolution
 //= require jquery.themepunch.tools.min
