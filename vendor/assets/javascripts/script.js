@@ -107,20 +107,6 @@ $(document).ready(function(){
         });        
     }
     
-    if($(".gmap").length){
-        
-        $(".gmap").each(function(){
-            
-            var lat=$(this).attr("data-lat");            // Latitude of the place to be marked
-            
-            var long=$(this).attr("data-long");          // Longitude of the place to be marked
-
-            var infoWin=$(this).attr("data-info-win");   // Content to be shown in Info Window on Marker
-
-            googleMapStyle(lat, long, infoWin, this);    // Call to Google Map Styler  
-        });
-    }
-    
     if($("a[data-gal^='prettyPhoto']").length){
 		callPrettyPhoto();                              // Pretty Photo
 	}

@@ -10,6 +10,15 @@
         %br/
         %address
           %strong Canna Hub Sp. z o.o.
+          %br
+          %span Numer KRS: 
+          %b 0000734077
+          %br
+          %span REGON: 
+          %b 380360586
+          %br
+          %span NIP: 
+          %b 5252751926
           %br/
           ul. Erazma Ciołka 17, 
           %br/
@@ -17,8 +26,11 @@
           %br/
         %ul.contact-list.contact-list-2x
           %li
-            %i.fa.fa-phone
-            +48 777 777 777
+            %i.fa.fa-phone 
+            +48 22 100 22 31
+          %li 
+            %i.fa.fa-phone 
+            +48 501 100 901
           %li
             %i.fa.fa-envelope
             biuro@cannahub.eu
@@ -46,11 +58,10 @@
             %button.btn.btn-primary{:name => "submit", :type => "submit"}
               %i.fa.fa-paper-plane
               Submit Query
-
   .container-fluid.mt-80
     .row
       .col-sm-12.no-gutter
-        / Replace Latitude, Logitude and Info Window as per your place
-        #gmap.gmap{"data-info-win" => "<strong>Canna Hub Sp. z o.o.</strong><br/><span>ul. Ciołka 17<br/> Warszawa, Polska</span>", "data-lat" => "20.944292", "data-long" => "52.243155"}
+        / The div element for the map
+        #map
   #back
     %i.fa.fa-angle-up
