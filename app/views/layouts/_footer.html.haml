@@ -4,6 +4,25 @@
     / Primary Footer
     .container
       .row
+        .col-sm-12
+          %ul.partners
+            %li
+              =link_to image_tag("logotypes/grl-logo.png", alt: "logo Grass Roots Lobbing Sp. z o.o."), "http://www.grassrootslobbing.pl", target: "_blank"
+            %li
+              =link_to image_tag("logo.png", alt: "logo"), {action: 'home', controller: 'static_pages_controller'}
+            %li
+              =link_to image_tag("logotypes/ch-logo.png", alt: "logo Cannabis House Sp. z o.o."), "http://www.cannabishouse.com.pl", target: "_blank"
+            %li
+              =link_to image_tag("logotypes/chs-logo.png", alt: "logo Grass Roots Lobbing Sp. z o.o."), "https://www.cannabishouse.eu", target: "_blank"
+            %li
+              =link_to image_tag("logotypes/isc-logo.png", alt: "logo Grass Roots Lobbing Sp. z o.o."), "http://www.indexscientiacannabis.pl", target: "_blank"
+            %li
+              =link_to image_tag("logotypes/thclinic-logo.png", alt: "logo Grass Roots Lobbing Sp. z o.o."), "http://www.thehempclinic.pl", target: "_blank"
+            %li
+              =link_to image_tag("logotypes/wk-logo.png", alt: "logo Grass Roots Lobbing Sp. z o.o."), "http://www.wolnekonopie.org", target: "_blank"
+            %li
+              =link_to image_tag("logotypes/apIII-logo.png", alt: "logo :::apIIInstytut:::"), "http://www.grassrootslobbing.pl", target: "_blank"
+      .row
         .col-sm-8.col-sm-offset-2.text-center
           .widget.widget-about
             %p

@@ -24,3 +24,12 @@
  *= require_tree .
  *= require_self
  */
+
+.partners {
+  background-color: #fff !important;
+  display: inline-block;
+}
+.partners ul {
+  list-style-position: none;
+  display: inline-block;
+}
