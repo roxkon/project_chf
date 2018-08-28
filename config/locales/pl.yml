@@ -45,6 +45,7 @@ pl:
       mission: "Misja"
       vision: "Wizja"
     contact: "Kontakt"
+    forum: "Forum"
 
   office_nr: "+48 22 100 22 31 "
   phone_nr: "+48 501 100 901"
@@ -120,3 +121,17 @@ pl:
     message: "Tutaj wpisz treść wiadomości."
     submit: "Wyślij"
     krs: "Numer KRS:"
+
+  forum: 
+    title: "I Forum Biznesowe nr Inwestycje w konopie"
+    h1p1: "I POLSKIE FORUM BIZNESOWE"
+    h1p2: "NT KONOPI"
+    sub: "W związku z dynamicznym rozwojem rynku konopnego, pragniemy tuż przed rozpoczęciem kampanii otwierającej sieć punktów handlowo-usługowych, umożliwić zakup licencji oraz wejście w inwestycje w cannabis w trybie przedpremierowym."
+    p1: "Od 1 listopada 2017r. przepisy prawa regulują rejestrację, wytwarzanie i wprowadzanie do obrotu w Polsce preparatów medycznych na bazie konopi oraz stosowanie zarejestrowanych preparatów w lecznictwie."
+    h3: "WSZYSTKO TO - ZGODNIE Z POLSKIM I EUROPEJSKIM PRAWEM."
+    when: "1 września w Warszawie odbędzie się I ogólnopolskie forum biznesowe dot. konopi"
+    invites: "Spotkanie ma charakter zamknięty, wstęp tylko dla osób zainteresowanych po wrześniejszej rezerwacji miejsca."
+    contact: "Zachęcamy do kontaktu mail: " 
+    details: "Szczegółowe informacje przesyłamy w wiadomości osobom zainteresowanym. Możliwa wyłączność na danym terenie."
+    horizon:   "Projekt o którym mowa powyżej jest projektem długofalowym, minimum 10 lat."
+    faq: "Wszelkie zapytania lub chęć uzyskania więcej informacji prosimy kierować na maila podanego do ogłoszenia."

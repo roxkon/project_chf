@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get 'static_pages_controller/about'
   get 'static_pages_controller/contact'
   get 'static_pages_controller/partners'
+  get 'static_pages_controller/forum'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

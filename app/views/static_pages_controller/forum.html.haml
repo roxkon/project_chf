@@ -1,0 +1,30 @@
+=provide(:title, I18n.t('forum.title'))
+.container.mt-80
+  .row
+    .col-sm-12
+      .heading-block
+        %h2.heading
+          =I18n.t('forum.h1p1')
+          %span.color1= I18n.t('forum.h1p2')
+        %p.sub-heading= I18n.t('forum.sub')
+  .row
+    .col-sm-7
+      %p.justify 
+        %h3=I18n.t('forum.h3')
+        %br
+        =I18n.t('forum.when')
+        %br
+        =I18n.t('forum.invites')
+        %br
+        =I18n.t('forum.contact')
+        =mail_to I18n.t('e-mail'), 'biuro@cannahub.eu'
+        %br
+        %br=I18n.t('forum.details')
+        %b=I18n.t('forum.horizon')
+        %br=I18n.t('forum.faq')
+    .col-sm-5.mt-20
+      =image_tag("flowers.png", alt: "O to walczymy!", class: "img-responsive")
+%br
+  #back
+    %i.fa.fa-angle-up.container
+
