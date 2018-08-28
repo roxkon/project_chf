@@ -4,54 +4,56 @@
     .col-sm-12
       .heading-block
         %h2.heading
-          Nasza
-          %span.color1 Oferta
-        %p.sub-heading Obsługa wsparcia inwestycyjnego i zarządzania przedsięwzięciem gospodarczym w zakresie:
+          =I18n.t('home.our')
+          %span.color1=I18n.t('home.offer')
+        %p.sub-heading=I18n.t('home.sub_head1')
     .col-sm-4
       .offer-box
         .offer-header
-          %h4.heading Importu Surowca
-          %span Importu surowca na rynek UE dla wytwórców substancji czynnej
+          %h4.heading=I18n.t('home.import.h1')
+          %span=I18n.t('home.import.sub_head2') 
         .offer-body
-          %p Behind the word mountains, far from the countries Vokalia and Consonantia.
+          %p=I18n.t('home.import.body')
     .col-sm-4
       .offer-box
         .offer-header
-          %h4.heading substancja czynna
-          %span import, wytwarzanie oraz dystrybucja
-        .offer-body
-          %p 
-            [zakłady z infrastrukturą dla przetwórstwa, pakowania, kontroli jakości, standaryzacji i dokumentacji produkcyjnej]
-            [zakłady z infrastrukturą magazynową i logistyczną niezbędną dla obsługi importu surowca oraz dystrybucji produktów]
-    .col-sm-4
-      .offer-box
-        .offer-header
-          %h4.heading działalność badawczo – rozwojowa 
-          %span produktów i procesów
-        .offer-body
-          %p [zakłady badawcze oparte o infrastrukturę laboratoryjną i IT, prowadzące dedykowane badania w/w  produktów i procesów w celu wprowadzenia ich na rynek wytwórców i na rynek apteczny]
-    .col-sm-4
-      .offer-box
-        .offer-header
-          %h4.heading IT
-          %span dedykowane rozwiązania 
-        .offer-body
-          %p [infrastruktura IT oraz usługi wsparcia zarządzania procesami produkcji, dystrybucji i sprzedaży, obsługa informacyjna kadry zarządzającej]
-    .col-sm-4
-      .offer-box
-        .offer-header
-          %h4.heading wytwarzania preparatów 
-          %span dopuszczonych do obrotu aptecznego
+          %h4.heading=I18n.t('home.active_substance.h1') 
+          %span=I18n.t('home.active_substance.sub_head3') 
         .offer-body
           %p 
+            =I18n.t('home.active_substance.body')
     .col-sm-4
       .offer-box
         .offer-header
-          %h4.heading wprowadzania produktów 
-          %span do obrotu na rynek UE
+          %h4.heading=I18n.t('home.r&d.h1')
+          %span=I18n.t('home.r&d.sub_head4')
+        .offer-body
+          %p=I18n.t('home.r&d.body') 
+    .col-sm-4
+      .offer-box
+        .offer-header
+          %h4.heading=I18n.t('home.it.h1')
+          %span=I18n.t('home.it.sub_head5')
+        .offer-body
+          %p=I18n.t('home.it.body')
+    .col-sm-4
+      .offer-box
+        .offer-header
+          %h4.heading=I18n.t('home.production.h1')  
+          %span=I18n.t('home.production.sub_head6') 
         .offer-body
           %p 
-
+            =I18n.t('home.production.body')
+            =link_to I18n.t('header.contact'), controller: "static_pages_controller", action: "contact"
+    .col-sm-4
+      .offer-box
+        .offer-header
+          %h4.heading=I18n.t('home.placing_on_market.h1') 
+          %span=I18n.t('home.placing_on_market.sub_head7') 
+        .offer-body
+          %p 
+  #back
+    %i.fa.fa-angle-up
 
 
 

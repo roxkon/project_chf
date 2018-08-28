@@ -27,16 +27,18 @@
             %ul.contact
               %li
                 %i.fa.fa-phone
-                +48 711 111 000
+                =I18n.t('office_nr')
+                %i.fa.fa-phone-square
+                =I18n.t('phone_nr')
               %li
                 %i.fa.fa-envelope
-                biuro@cannahub.eu
+                =I18n.t('footer.e-mail')
   .footer-sec
     / Secondary Footer
     .container
       .row
         .col-sm-12
           %span
-            Copyright © 2017-2018 
+            =I18n.t('footer.copywright') 
             =link_to "Canna Hub Sp. z o.o. ", controller: "static_pages_controller", action: "home"
-            All rights Reserved.
+            =I18n.t('footer.reserved')

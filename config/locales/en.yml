@@ -33,7 +33,6 @@ en:
   header:
     menu: "Menu"
     email_us: "E-mail Us"
-    e-mail: "biuro@cannahub.eu"
     home: "Home"
     about: "About"
     grl: "Grass Roots Lobbing"
@@ -46,18 +45,60 @@ en:
       mission: "Mission"
       vision: "Vision"
     contact: "Contact"
-    office: "+48 22 100 22 31"
-    phone_nr: "+48 501 100 901"
 
+  office_nr: "+48 22 100 22 31 "
+  phone_nr: "+48 501 100 901"
+  e-mail: "biuro@cannahub.eu"
+  
   footer:
     up_to_date: "Stay up to date"
+    e-mail: "biuro@cannahub.eu"
+    copywright: "Copyright © 2017-2018"
+    reserved: "All rights Reserved."
 
   home: 
     title: "Home"
+    our: "Our"
+    offer: "Offer"
+    sub_head1: "Support for investment support and management of an economic venture in the scope of:"
+    import:
+      h1: "Raw Imports"
+      sub_head2: "Imports of raw material to the EU market for active substance manufacturers"
+      body: "We want to enable interested parties to access high quality standardized raw material"
+    active_substance: 
+      h1: "The active substance"
+      sub_head3: ""
+      body: "[plants with infrastructure for processing, packaging, quality control, standardization and production documentation]\n[plants with warehouse and logistic infrastructure necessary for handling import of raw material and distribution of products]"
+    r&d: 
+      h1: "Research and Development Activity"
+      sub_head4: ""
+      body: "[research plants based on laboratory and IT infrastructure, conducting dedicated research on the above-mentioned products and processes in order to bring them to the market of manufacturers and the pharmacy market]"
+    it: 
+      h1: "IT"
+      sub_head5: " dedicated solutions"
+      body: "[IT infrastructure and support services for managing production, distribution and sales processes, information management of the management staff]"
+    production:
+      h1: "Preparation of Preparations"
+      sub_head6: "admitted to pharmacy trade"
+      body: "Detailed information available in the section"
+    placing_on_market: 
+      h1: "product introduction"
+      sub_head7: "for trading on the EU market"
 
   about: 
     title: "About"
     act: "Act"
+    considerations: "Legal"
+    considerations_leg: "Conditions"
+    considerations_cont: "From November 1, 2017. legal provisions regulate the registration, manufacture and marketing of medical preparations based on hemp in Poland and the use of registered preparations in medicine."
+    issue_control: "According to the regulation:"
+    issue_1: "both ready-made herbal medicinal products may be marketed for indications including defined disease entities, as well as standardized raw materials in plant form (dried inflorescences) and in the form of extracts intended for preparing prescription drugs in a pharmacy on the basis of medical prescription or intended for further production as active substances."
+    issue_2: "drugs of the first category, admitted on the basis of clinical trials, may be conditionally covered by government financing, while products in the form of pharmaceutical raw materials are legally excluded from this possibility."
+    issue_3: "Detailed regulations defining specific conditions for registration, production and trade in the territory of the Republic of Poland in accordance with the EU requirements apply to each product category."
+    central_point: "Central Point"
+    central_main: "The specific design of the regulation allows the creation on the territory of Poland of a central point of production of the active substance and pharmaceutical raw material intended for the entire European Union market."
+    legal_basis: "Legal basis"
+    legal_main: " of 7 July 2017 amending the act on counteracting drug addiction and the act on reimbursement of medicines, foodstuffs for particular nutritional purposes and medical devices"
 
   hub:
     title: "Project CannaHUB"
@@ -69,11 +110,21 @@ en:
     visit_us: "Visit Us:"
     working_time: "Our company works from mondey till friday between 10 am and 4:20 pm"
     adress1: "ul. Erazma Ciołka 17"
-    adress2: "01-445 Warszawa, Polska"
+    adress2: "01-445 Warsaw, Poland"
     contact_us: "Contact Us"
-    first_name: "First Name"
-    last_name:  "Last Name"
+    hearing: "We love hearing form You"
+    first_name: "Your First Name"
+    last_name:  "Your Last Name"
     email: "Your e-mail"
-    subject: "Subject"
+    subject: "Your Subject Line"
     message: "Write Your message here"
-    submit: "Send"
+    submit: "Submit Query"
+    krs: "KRS:"    
+
+
+
+
+
+
+
+

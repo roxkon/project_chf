@@ -33,7 +33,6 @@ pl:
   header:
     menu: "Menu"
     email_us: "Napisz do nas"
-    e-mail: "biuro@cannahub.eu"
     home: "Strona główna"
     about: "O nas"
     grl: "Grass Roots Lobbing"
@@ -46,14 +45,45 @@ pl:
       mission: "Misja"
       vision: "Wizja"
     contact: "Kontakt"
-    office: "+48 22 100 22 31 "
-    phone_nr: "+48 501 100 901"
+
+  office_nr: "+48 22 100 22 31 "
+  phone_nr: "+48 501 100 901"
+  e-mail: "biuro@cannahub.eu"
 
   footer:
     up_to_date: "Bądź z nami na bieżąco:"
+    e-mail: "biuro@cannahub.eu"
+    copywright: "Copyright © 2017-2018"
+    reserved: "All rights Reserved."
 
   home: 
     title: "Strona Główna"
+    our: "Nasza"
+    offer: "Oferta"
+    sub_head1: "Obsługa wsparcia inwestycyjnego i zarządzania przedsięwzięciem gospodarczym w zakresie:"
+    import:
+      h1: "Import Surowca"
+      sub_head2: "Importu surowca na rynek UE dla wytwórców substancji czynnej"
+      body: "Pragniemy umożliwić zainteresowanym podmiotom dostęp do wysokiej jakości standaryzowanego surowca"
+    active_substance: 
+      h1: "Substancja Czynna"
+      sub_head3: ""
+      body: "[zakłady z infrastrukturą dla przetwórstwa, pakowania, kontroli jakości, standaryzacji i dokumentacji produkcyjnej]\n[zakłady z infrastrukturą magazynową i logistyczną niezbędną dla obsługi importu surowca oraz dystrybucji produktów]"
+    r&d: 
+      h1: "Działalność Badawczo – Rozwojowa"
+      sub_head4: ""
+      body: "[zakłady badawcze oparte o infrastrukturę laboratoryjną i IT, prowadzące dedykowane badania w/w  produktów i procesów w celu wprowadzenia ich na rynek wytwórców i na rynek apteczny]"
+    it: 
+      h1: "IT"
+      sub_head5: " dedykowane rozwiązania "
+      body: "[infrastruktura IT oraz usługi wsparcia zarządzania procesami produkcji, dystrybucji i sprzedaży, obsługa informacyjna kadry zarządzającej]"
+    production:
+      h1: "Wytwarzania Preparatów"
+      sub_head6: " dopuszczonych do obrotu aptecznego"
+      body: "Szczegółowe informacje dostępne w dziale "
+    placing_on_market: 
+      h1: "wprowadzania produktów "
+      sub_head7: "do obrotu na rynek UE"
 
   about: 
     title: "O nas"
@@ -82,9 +112,11 @@ pl:
     adress1: "ul. Erazma Ciołka 17"
     adress2: "01-445 Warszawa, Polska"
     contact_us: "Skontaktuj się z nami."
+    hearing: "Czekamy na Wasze zgłoszenia."
     first_name: "Imię"
     last_name:  "Nazwisko"
     email: "Twój adres e-mail"
     subject: "Temat wiadomości"
     message: "Tutaj wpisz treść wiadomości."
     submit: "Wyślij"
+    krs: "Numer KRS:"
