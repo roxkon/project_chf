@@ -23,8 +23,7 @@ $(window).on("load",function(){
 /*********** Function Calls **********/
 /*************************************/
 
-$(document).ready(function(){
-
+document.addEventListener("turbolinks:load", function() {
     if($(".parallax").length && $(window).width() > 960){
 		backgroundParallax();			// Call to  background parallax
     }
