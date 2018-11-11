@@ -34,6 +34,16 @@
           %li
             =link_to I18n.t('header.about'), controller: "static_pages_controller", action: "about"
           %li
+            =link_to I18n.t('header.forum'), controller: "static_pages_controller", action: "forum"
+            / %ul.sub-menu
+            /   / Sub Menu
+            /   %li
+            /     =link_to I18n.t('header.ch_stow'), "https://www.cannabishouse.eu", target: "_blank"
+            /   %li
+            /     =link_to I18n.t('header.thc'), "https://www.tradehempcenter.pl", target: "_blank"
+            /   %li
+            /     =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
+          %li
             = link_to I18n.t('header.contact'), controller: "static_pages_controller", action: "contact"
           %li
             %span.emergency
