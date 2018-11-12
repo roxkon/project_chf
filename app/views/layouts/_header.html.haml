@@ -30,9 +30,20 @@
         / Main Menu
         %ul.nav.navbar-nav.navbar-right
           %li
-            =link_to I18n.t('header.home'), controller: "static_pages_controller", action: "home"
+            %a.text-menu-item{ :href => "#onas", :title => "O nas" }
+              O nas
           %li
-            =link_to I18n.t('header.about'), controller: "static_pages_controller", action: "about"
+            %a.text-menu-item{ :href => "#onas", :title => "O nas" }
+              Model
+          %li
+            %a.text-menu-item{ :href => "#onas", :title => "O nas" }
+              Współpraca
+          %li
+            %a.text-menu-item{ :href => "#onas", :title => "O nas" }
+              Wkrótce
+          %li
+            %a.text-menu-item{ :href => "#onas", :title => "O nas" }
+              Partnerzy    
             / %ul.sub-menu
             /   / Sub Menu
             /   %li

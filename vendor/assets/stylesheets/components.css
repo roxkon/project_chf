@@ -699,14 +699,14 @@ legend{
 }
 
 .header-3 .navbar-default .navbar-nav>li>a:hover{
-    color:#fff;
+    color:#024a02;
 }
 
 .header-3 .navbar-default .navbar-nav>.active>a,
 .header-3 .navbar-default .navbar-nav>.active>a:focus,
 .header-3 .navbar-default .navbar-nav>.active>a:hover{
-    background-color: transparent;
-    color: #fff;
+    background-color: #024a02;
+    color: #024a02;
 }
 
 .header-3 .navbar-default .navbar-nav>li>a:after{
@@ -714,12 +714,12 @@ legend{
     position: absolute;
     height: 2px;
     width: 0px;
-    bottom: 0px;
+    bottom: 35px;
     left: 50%;
-    background-color: #fff;
+    background-color: #024a02;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    -webkit-transition:350ms ease all;
+    -webkit-transition: 350ms ease all;
     transition: 350ms ease all;
 }
 
