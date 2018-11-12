@@ -1,36 +1,3 @@
-=provide(:title, I18n.t('home.title'))
-.container.mt-80
-  .row
-    .col-sm-12
-      .heading-block
-        %h2.heading
-          =I18n.t('home.our')
-          %span.color1=I18n.t('home.offer')
-        %p.sub-heading=I18n.t('home.sub_head1')
-    
-    .col-sm-7
-      %p.justify 
-        %br
-        =I18n.t('about.issue_1')
-        %br
-      .row.mt-40
-        .col-sm-6
-          %h4= I18n.t('about.central_point')
-          %p= I18n.t('about.central_main')
-        .col-sm-6
-          %h4= I18n.t('about.legal_basis')
-          %p 
-            =link_to I18n.t('about.act'), "http://dziennikustaw.gov.pl/du/2017/1458/1", target: "_blank"  
-            = I18n.t('about.legal_main')
-    .col-sm-5.mt-20
-      =image_tag("cannaHub.jpg", alt: "O to walczymy!", class: "img-responsive")      
-  
-  #back
-    %i.fa.fa-angle-up
-
-
-
-
 
 
 
