@@ -23,7 +23,6 @@
 //= require gmap
 //= require jquery.themepunch.enablelog
 //= slick.min
-//= mdb.min
 //= require jquery.themepunch.revolution
 //= require jquery.themepunch.tools.min
 //= require revolution.extension.actions.min
