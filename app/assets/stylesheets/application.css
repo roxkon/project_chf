@@ -191,3 +191,12 @@ transition: 350ms all ease;
 .text-menu-item:hover {
   color: rgb(153, 40, 40);
   }
+
+  .img-resposive-x {
+    width: 300px;
+    height: 100%;
+  }
+  
+  .justify-style {
+    text-align: justify;
+  }
