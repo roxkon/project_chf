@@ -24,17 +24,17 @@
         %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#main-navigation", "data-toggle" => "collapse", :type => "button"}
           %span.sr-only=I18n.t('header.menu')
           %i.fa.fa-bars
-        =link_to image_tag("logo.png", alt: "logo"), {action: 'home', controller: 'static_pages_controller'}, class: 'navbar-brand', style: "margin-top: 7px;"
+        =link_to image_tag("logo.png", alt: "logo"), static_pages_controller_home_path, class: 'navbar-brand', style: "margin-top: 7px;"
         / Replace with your Logo
       #main-navigation.collapse.navbar-collapse
         / Main Menu
         %ul.nav.navbar-nav.navbar-right
           %li
-            =link_to I18n.t('header.home'), controller: "static_pages_controller", action: "home"
+            =link_to I18n.t('header.home'), static_pages_controller_home_path
           %li
-            =link_to I18n.t('header.about'), controller: "static_pages_controller", action: "about"
+            =link_to I18n.t('header.about'), static_pages_controller_about_path
           %li
-            =link_to I18n.t('header.forum'), controller: "static_pages_controller", action: "forum"
+            =link_to I18n.t('header.forum'), static_pages_controller_forum_path
             / %ul.sub-menu
             /   / Sub Menu
             /   %li
@@ -44,8 +44,13 @@
             /   %li
             /     =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
           %li
-            = link_to I18n.t('header.contact'), controller: "static_pages_controller", action: "contact"
-          %li
+            = link_to I18n.t('header.contact'),static_pages_controller_contact_path
+          - if current_user
+            %li
+              = link_to I18n.t('header.logout'), destroy_user_session_path, method: :delete
+          - else
+            %li
+              = link_to I18n.t('header.login'), new_user_session_path
             %span.emergency
               / Emergency Number
               %i.fa.fa-mobile

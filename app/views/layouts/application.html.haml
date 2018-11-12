@@ -28,6 +28,8 @@
     -#= render 'layouts/loader'
     = render 'layouts/header'
     = render 'layouts/slider'
+    - flash.each do |k, v|
+      %div{:id => k}= v
     = yield
     = render 'layouts/footer'
 

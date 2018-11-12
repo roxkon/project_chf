@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: MyString
+  coin_type: 1
+  limit: 1
+  network_address: MyString
+
+two:
+  code: MyString
+  coin_type: 1
+  limit: 1
+  network_address: MyString

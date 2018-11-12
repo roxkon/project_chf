@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Code:
+  = @wallet.code
+%p
+  %b Coin type:
+  = @wallet.coin_type
+%p
+  %b Limit:
+  = @wallet.limit
+%p
+  %b Network address:
+  = @wallet.network_address
+
+= link_to 'Edit', edit_wallet_path(@wallet)
+\|
+= link_to 'Back', wallets_path
