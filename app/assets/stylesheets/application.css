@@ -117,7 +117,7 @@ margin: 20px 0px 0px 34px;
   width: 300px;
   font-size: 300px;
   align-self: center;
-  color: #8ed225;
+  color: #024a02;
 }
 
 .content-center {
@@ -127,9 +127,22 @@ margin: 20px 0px 0px 34px;
 
 h2 {
   text-transform: uppercase;
+  color: #024a02;
 }
 
 .margin-model-component {
   padding-top: 110px;
   margin-bottom: 60px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+.fullwidthbanner-container, .rev_slider {
+  height: 300px;
+}
+
+.tparrows {
+  display: none!important;
 }
