@@ -23,6 +23,9 @@
  *= require settings
  *= require_tree .
  *= require_self
+ *= require slick
+ *= require slick-theme
+ *= require mdb
  */
 
 .partners {
@@ -32,4 +35,80 @@
 .partners li {
   list-style-position: none;
   display: inline !important;
+}
+
+.partners-title{
+color: #000;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 20px;
+font-weight: 600;
+font-size: 42px;
+font-family: 'Raleway',sans-serif;
+}
+
+.background-carousel {
+display: table !important;
+margin: 0 auto;
+height:150px;
+}
+
+.inner-carousel {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+
+.images{
+    text-align: left;
+    background: #fff;
+    margin : 0 auto;
+}
+
+.partner-content{
+  margin-bottom: 50px;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Raleway, sans-serif;
+}
+
+.small-text-addres {
+  font-size: 14px;
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 5px 11px 0px, rgba(0, 0, 0, 0.15) 0px 4px 15px 0px;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  z-index: 1;
+  vertical-align: middle;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out 0s;
+  margin: 0px auto;
+  border-radius: 50%;
+  padding: 0px;
+  background: rgb(255, 255, 255);
+}
+
+.offer-paragraf {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: Pangram, Avenir, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.icons_offer {
+color: rgb(204, 204, 204);
+height: 80px;
+text-shadow: rgba(0, 0, 0, 0.19) 0px 5px 0px;
+display: block;
+margin: 20px 0px 0px 34px;
 }

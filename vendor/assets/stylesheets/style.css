@@ -473,9 +473,9 @@ blockquote footer{
 
 .header-2 .navbar-default .navbar-nav>li>a.btn-emergency{
     position: relative;
-    background-color: #8ed225;
+    background-color: #fff;
     padding: 10px 20px;
-    color: #fff;
+    color: #000;
     margin-top: 15px;
     line-height: 27px;
     border-radius: 4px;
@@ -487,7 +487,7 @@ blockquote footer{
     position: absolute;
     left: 0px;
     top:0px;
-    background-color: #000;
+    background-color: #fff;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -583,7 +583,7 @@ blockquote footer{
 
 .header-3 .topbar{
     position: relative;
-    background-color: #303b41;
+    background-color: #8ed225;
 }
 
 .header-3 .topbar .contact{

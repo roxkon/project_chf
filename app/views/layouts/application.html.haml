@@ -15,10 +15,14 @@
     / Google Fonts
     %link{:href => "https://fonts.googleapis.com/css?family=Exo+2|Open+Sans:300,400,700", :rel => "stylesheet"}/
     %link{:href => "https://fonts.googleapis.com/css?family=Exo+2|Volkhov:400,400i", :rel => "stylesheet"}/
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css", :rel => "stylesheet"}/
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css", :rel => "stylesheet"}/
 
     / Respond.js and HTML shiv provide HTML5 support in older browsers like IE9 and 8
     /[if lt IE 9]
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     %title= full_title(yield(:title))
     = csrf_meta_tags
@@ -29,6 +33,8 @@
     = render 'layouts/header'
     = render 'layouts/slider'
     = yield
+    = render 'layouts/offer'
+    = render 'layouts/carousel'
     = render 'layouts/footer'
 
 / Permission for Setting Cookies

@@ -658,7 +658,7 @@ legend{
     margin-bottom: 0px;
     width: 100%;
     z-index: 10;
-    background-color: #8ed225;
+    background-color: #fff;
     border-radius: 0px;
 }
 
@@ -684,7 +684,7 @@ legend{
 .header-3 .navbar-default .navbar-nav>li>a:active,
 .header-3 .navbar-default .navbar-nav>li>a:focus
 {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-weight: 400;
     overflow: hidden;

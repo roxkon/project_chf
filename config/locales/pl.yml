@@ -48,20 +48,27 @@ pl:
     forum: "Forum"
 
   office_nr: "+48 733 500 007 "
+  office_nr_en: "+48 515-163-257"
+  office_nr_pl: "+48 530-310-330"
   phone_nr: "+48 501 100 901"
   e-mail: "biuro@cannahub.eu"
+  mail_en: "office@cannahub.eu"
+  mail_pl: "biuro@cannahub.eu"
+
 
   footer:
-    up_to_date: "Bądź z nami na bieżąco:"
+    up_to_date: "Skontaktuj się z nami"
+    collaborators: "Jesteśmy otwarci na współpracę z międzynarodowymi partnerami w zakresie rozwoju, dostaw produktów, protokołu badawczo - naukowego i technologii"
     e-mail: "biuro@cannahub.eu"
     copywright: "Copyright © 2017-2018"
     reserved: "All rights Reserved."
 
   home: 
     title: "Strona Główna"
-    our: "Nasza"
-    offer: "Oferta"
-    sub_head1: "Obsługa wsparcia inwestycyjnego i zarządzania przedsięwzięciem gospodarczym w zakresie:"
+    our: "O"
+    offer: "Nas"
+    sub_head1: "CannaHub to platforma integrującą możliwości administracyjne, produkcyjne i logistyczne w celu dostarczania preparatów medycznych na bazie konopi.
+Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnych Pacjentów w Polsce i na terenie krajów Unii Europejskiej, gdzie terapia medyczną marihuaną jest prawem pacjenta. "
     import:
       h1: "Import Surowca"
       sub_head2: "Importu surowca na rynek UE dla wytwórców substancji czynnej"
@@ -93,11 +100,11 @@ pl:
     considerations_leg: "Prawne"
     considerations_cont: "Od 1 listopada 2017r. przepisy prawa regulują rejestrację, wytwarzanie i wprowadzanie do obrotu w Polsce preparatów medycznych na bazie konopi oraz stosowanie zarejestrowanych preparatów w lecznictwie."
     issue_control: "Zgodnie z regulacją:"
-    issue_1: "do obrotu mogą być dopuszczone zarówno leki gotowe pochodzenia roślinnego we wskazaniach obejmujących zdefiniowane jednostki chorobowe, jak również standaryzowane surowce w postaci roślinnej (suszone kwiatostany) oraz w postaci wyciągów przeznaczone do sporządzania leków recepturowych w aptece na podstawie preskrypcji lekarskiej bądź przeznaczone do dalszego procesu produkcyjnego jako substancje czynne."
+    issue_1: "Zgodnie z polskim prawem do obrotu oraz importu do Polski dopuszczone są leki gotowe pochodzenia roślinnego, jak również standaryzowane surowce w postaci roślinnej (suszone kwiatostany) oraz w postaci wyciągów przeznaczone do sporządzania leków recepturowych w aptece na podstawie preskrypcji lekarskiej bądź przeznaczone do dalszego procesu produkcyjnego jako substancje czynne. "
     issue_2: "leki pierwszej kategorii, dopuszczone na podstawie badań klinicznych, mogą być warunkowo objęte finansowaniem rządowym, natomiast produkty w postaci surowców farmaceutycznych są z tej możliwości ustawowo wyłączone."
     issue_3: "Dla każdej kategorii produktów obowiązują szczegółowe regulacje określające specyficzne warunki rejestracji, wytwarzania i obrotu na terytorium RP zgodne z wymogami EU."
     central_point: "Centralny Punkt"
-    central_main: "Specyficzna konstrukcja regulacji pozwala na utworzenie na terytorium Polski centralnego punktu wytwarzania substancji czynnej oraz surowca farmaceutycznego przeznaczonego na rynek całej Unii Europejskiej."
+    central_main: "Od 1 listopada 2017r. przepisy prawa regulują rejestrację, wytwarzanie i wprowadzanie do obrotu w Polsce preparatów medycznych na bazie konopi oraz stosowanie zarejestrowanych preparatów w lecznictwie."
     legal_basis: "Podstawa prawna"
     legal_main: "z dnia 7 lipca 2017 r. o zmianie ustawy o przeciwdziałaniu narkomanii oraz ustawy o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych"
 

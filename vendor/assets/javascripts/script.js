@@ -19,6 +19,8 @@ $(window).on("load",function(){
 });
 
 
+
+
 /*************************************/
 /*********** Function Calls **********/
 /*************************************/
@@ -37,6 +39,7 @@ document.addEventListener("turbolinks:load", function() {
             newsSlider(this);			// Call to News slider
         });
     }
+    
     
     if($(".testimonial-slider").length){
         testimonialSlider();			// Call to Testimonial Slider
@@ -93,7 +96,8 @@ document.addEventListener("turbolinks:load", function() {
     }
     
     if($("#slider").length){
-        sliderRevolution();				// Call to Slider Revolution with Image
+        sliderRevolution();	
+        carouselSlider()			// Call to Slider Revolution with Image
     }
     
     if($("#slider-video").length){
@@ -394,7 +398,7 @@ function sliderRevolution()
       delay:5000,                                       // Delay in Transition from one slide to another in milliseconds
       responsiveLevels: [1200, 1024, 778, 480],
       gridwidth: [1200, 1024, 778, 480],
-      gridheight: [850, 768, 650, 500],
+      gridheight: [550, 568, 450, 350],
       navigation: {
           arrows:{enable:true}
       },
@@ -403,6 +407,20 @@ function sliderRevolution()
         type:"scroll"
         }
     });
+}
+
+function carouselSlider(){
+    $(document).ready(function(){
+        $('.slider-partners').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 2000,
+            autoplaySpeed: 2000,
+        });
+      });
 }
 
 function sliderRevolutionVideo()

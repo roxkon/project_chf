@@ -4,35 +4,44 @@
     / Primary Footer
     .container
       .row
-        .col-sm-8.col-sm-offset-2.text-center
+        .col-sm-9.col-sm-offset-2.text-center
           .widget.widget-about
-            %p
+            %h2
               =I18n.t('footer.up_to_date')
             %hr.hr-1/
-            %ul.social
-              %li
-                %a{:href => ""}
-                  %i.fa.fa-facebook
-              %li
-                %a{:href => ""}
-                  %i.fa.fa-twitter
-              %li
-                %a{:href => ""}
-                  %i.fa.fa-linkedin
-              %li
-                %a{:href => ""}
-                  %i.fa.fa-youtube
+            %p 
+              =I18n.t('footer.collaborators')
             %br/
             %br/
-            %ul.contact
-              %li
-                %i.fa.fa-phone
-                =I18n.t('office_nr')
-                %i.fa.fa-phone-square
-                =I18n.t('phone_nr')
-              %li
-                %i.fa.fa-envelope
-                =I18n.t('footer.e-mail')
+            .col-md-4
+              %h5.footer-title
+                Obsługa w języku polskim
+              %ul.contact
+                %li
+                  %i.fa.fa-phone
+                    =I18n.t('office_nr_pl')
+                  %i.fa.fa-envelope
+                    =I18n.t('mail_pl')
+            .col-md-4
+              %h5.footer-title
+                Obsługa w języku angielskim
+              %ul.contact
+                %li
+                  %i.fa.fa-phone
+                    =I18n.t('office_nr_en')
+                  %i.fa.fa-envelope
+                    =I18n.t('mail_en')   
+            .col-md-4         
+              %h5.footer-title
+                Canna Hub Sp. z o.o. 
+              %ul.contact
+                %li
+                  %i.fa.fa-map-marker
+                    Aleja Solidarności 68/121
+                    %br
+                  %i.fa
+                    00-240 Warszawa, Polska
+ 
   .footer-sec
     / Secondary Footer
     .container
