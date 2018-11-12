@@ -4,50 +4,36 @@
     / Primary Footer
     .container
       .row
-        .col-sm-9.col-sm-offset-2.text-center
+        .col-md-12.text-center
           .widget.widget-about
-            %h2
-              =I18n.t('footer.up_to_date')
-            %hr.hr-1/
-            %p 
-              =I18n.t('footer.collaborators')
-            %br/
-            %br/
             .col-md-4
               %h5.footer-title
                 Obsługa w języku polskim
               %ul.contact
                 %li
                   %i.fa.fa-phone
-                    =I18n.t('office_nr_pl')
+                  =I18n.t('office_nr_pl')
+                  %br
                   %i.fa.fa-envelope
-                    =I18n.t('mail_pl')
+                  =I18n.t('mail_pl')
             .col-md-4
               %h5.footer-title
                 Obsługa w języku angielskim
               %ul.contact
                 %li
                   %i.fa.fa-phone
-                    =I18n.t('office_nr_en')
+                  =I18n.t('office_nr_en')
+                  %br
                   %i.fa.fa-envelope
-                    =I18n.t('mail_en')   
+                  =I18n.t('mail_en')   
             .col-md-4         
               %h5.footer-title
                 Canna Hub Sp. z o.o. 
               %ul.contact
                 %li
                   %i.fa.fa-map-marker
-                    Aleja Solidarności 68/121
-                    %br
+                  Aleja Solidarności 68/121
+                  %br
                   %i.fa
-                    00-240 Warszawa, Polska
+                  00-240 Warszawa, Polska
  
-  .footer-sec
-    / Secondary Footer
-    .container
-      .row
-        .col-sm-12
-          %span
-            =I18n.t('footer.copywright') 
-            =link_to "Canna Hub Sp. z o.o. ", controller: "static_pages_controller", action: "home"
-            =I18n.t('footer.reserved')

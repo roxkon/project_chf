@@ -2982,7 +2982,7 @@ blockquote footer{
 /* Footer 3 */
 
 .footer-3 .footer-pri{
-    background-color: #22292d;
+    background-color: #76d500;
 }
 
 .footer-3 .footer-sec{
@@ -2995,8 +2995,8 @@ blockquote footer{
 .footer-3 .widget{
     margin: 20px 0px;
     position: relative;
-    overflow:hidden;
-    color: rgba(255, 255, 255, 0.35);
+    overflow: hidden;
+    color: rgb(246, 246, 246);
 }
 
 .footer-3 .widget .heading{
@@ -3017,7 +3017,7 @@ blockquote footer{
 
 .footer-3 .widget .contact li i{
     margin-right: 5px;
-    color: #024a02;
+    color: #ffffff;
 }
 
 /*******************************/
