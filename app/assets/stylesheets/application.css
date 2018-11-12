@@ -153,3 +153,22 @@ body {
 .left_about{
   margin-top: 47px;
 }
+.heading-text {
+position: absolute;
+    width: 450px;
+    margin-top: 40px;
+    left: 38%;
+}
+
+.heading-text:before{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  bottom: -20px;
+  left: 45%;
+  background-color: #024a02;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 2;
+}

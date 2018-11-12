@@ -2067,7 +2067,8 @@ blockquote footer{
 
 .health-tips-1,
 .health-tips-2{
-    padding: 60px 20px;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 
 .health-tips-1:before,
@@ -2081,7 +2082,7 @@ blockquote footer{
 }
 
 .health-tips-1:before{
-    background-color: #024a02;
+    background-color: #f7f7f7;
     right: 0px;
 }
 
@@ -2105,7 +2106,7 @@ blockquote footer{
     list-style: none;
     padding: 0px;
     text-align: right;
-    color: #fff;
+    color: #004c00;
 }
 
 .health-tips-2 .tips{
@@ -2159,8 +2160,8 @@ blockquote footer{
 .health-tips-1 .tips li .count{
     float: right;
     margin-left: 20px;
-    color: #024a02;
-    background-color: #fff;
+    color: #ffffff;
+    background-color: #004c00;
 }
 
 .health-tips-2 .tips li .count{
