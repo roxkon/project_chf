@@ -145,3 +145,11 @@ body {
 .tparrows {
   display: none!important;
 }
+
+.text-company a{
+  color: #fff !important;
+}
+
+.left_about{
+  margin-top: 47px;
+}

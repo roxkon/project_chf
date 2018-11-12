@@ -2982,13 +2982,13 @@ blockquote footer{
 /* Footer 3 */
 
 .footer-3 .footer-pri{
-    background-color: #76d500;
+    background-color: #024a02;
 }
 
 .footer-3 .footer-sec{
     background-color: #1b2023;
     padding: 25px 0px;
-    color: rgba(255, 255, 255, 0.20);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -3006,7 +3006,9 @@ blockquote footer{
 .footer-3 .widget .contact{
     list-style: none;
     padding: 0px;
-    font-size: 18px;
+    position: relative;
+    font-size: 23px;
+    text-align: center;
 }
 
 .footer-3 .widget .contact li{
