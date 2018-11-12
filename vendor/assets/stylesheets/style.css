@@ -193,9 +193,9 @@ h6 .small, h6 small
 .heading-block:before{
     content: "";
     position: absolute;
-    height: 6px;
+    height: 2px;
     width: 50px;
-    bottom: -2px;
+    bottom: -20px;
     left: 50%;
     background-color: #8ed225;
     -webkit-transform: translateX(-50%);
@@ -1040,7 +1040,7 @@ blockquote footer{
     display: block;
 }
 
-.department-list li .list-icon, 
+.department-list li .list-icon,
 .department-list li .list-text{
     display: table-cell;
     vertical-align: middle;
@@ -1078,7 +1078,7 @@ blockquote footer{
 }
 
 .offer-box .offer-header span{
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 
 .offer-box .offer-body{
@@ -1653,13 +1653,13 @@ blockquote footer{
 
 .feature-box.left .text{
     padding-right: 60px;
-    padding-left: 150px;
-    
+    padding-left: 30px;
+
 }
 
 .feature-box.right .text{
     padding-left: 60px;
-    padding-right: 150px;
+    padding-right: 30px;
 }
 
 .feature-box .count{
@@ -1755,7 +1755,7 @@ blockquote footer{
     position: relative;
 }
 
-.call-out-1:before, 
+.call-out-1:before,
 .call-out-1:after{
     content: "";
     position: absolute;
@@ -2122,7 +2122,7 @@ blockquote footer{
 
 .health-tips-2 .tips p{
     font-size: 16px;
-    margin-left: 100px;    
+    margin-left: 100px;
 }
 
 .health-tips-1 .tips li,
@@ -3153,7 +3153,7 @@ blockquote footer{
 }
 
 .blog-comments .what-said{
-    margin:5px 0px 8px 0px; 
+    margin:5px 0px 8px 0px;
 }
 
 .blog-comments .comment-list .comment-body{
@@ -3570,7 +3570,7 @@ blockquote footer{
     margin: -17px 15px 0px 15px;
 }
 
-.carousel-control.left, 
+.carousel-control.left,
 .carousel-control.right{
     background: #8ed225;
     height: 35px;
@@ -3588,7 +3588,7 @@ blockquote footer{
     opacity: 1;
 }
 
-.carousel-inner>.item>a>img, 
+.carousel-inner>.item>a>img,
 .carousel-inner>.item>img{
     width: 100%;
 }
@@ -3789,15 +3789,15 @@ blockquote footer{
 
 /* Medium Devices, Laptops */
 @media only screen and (min-width: 992px){
-    
+
     .header-2{
         position: absolute;
     }
-    
+
     .health-tips{
         background-size: contain;
     }
-    
+
     .coming-soon .left-block, .coming-soon .right-block{
         float: none;
         display: table-cell;
@@ -3808,13 +3808,13 @@ blockquote footer{
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px){
-    
+
     .p20{padding:20px;}
     .p40{padding:40px;}
     .p60{padding:60px;}
     .p80{padding:80px;}
     .p100{padding:100px;}
-    
+
     .header-1 .topbar .contact,
     .header-2 .topbar .contact,
     .header-3 .topbar .contact{
@@ -3822,7 +3822,7 @@ blockquote footer{
         float: right;
         text-align: right;
     }
-    
+
     .header-1 .topbar .social,
     .header-2 .topbar .social,
     .header-3 .topbar .social{
@@ -3830,56 +3830,56 @@ blockquote footer{
         float: left;
         text-align: left;
     }
-    
+
     .header-1 .emergency{
         padding: 18px 0px 18px 18px;
     }
-    
+
     .header-3 .emergency{
         padding: 18px 0px 18px 18px;
     }
-    
+
     .flex{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
-    
+
     .not-found .nf-icon{
         text-align: right;
     }
-    
+
     .not-found .nf-icon,
     .not-found .nf-text{
         display: table-cell;
         vertical-align: middle;
     }
-    
+
     #fixed-appointment{
         display: block;
     }
-    
+
     .app-download-light,
     .app-download-dark{
         background-size: 42%;
     }
-    
+
     .call-out-1 .right,
     .call-out-1 .left{
         text-align:left;
     }
-    
+
     .call-out-1 .right i,
     .call-out-1 .right .call-us{
         display: table-cell;
         vertical-align: middle;
     }
-    
+
     .call-out-1:after{
         width:50%;
         left:50%;
     }
-    
+
     .gmap-address .address{
         top:50%;
         left: 50px;
@@ -3891,11 +3891,11 @@ blockquote footer{
 
 /* Small Devices, Phones */
 @media only screen and (min-width: 460px){
-    
+
     .pricing-box-2 .header{
         padding-left:0px;
     }
-    
+
     .pricing-box-2 .header,
     .pricing-box-2 .body{
         display:table-cell;
