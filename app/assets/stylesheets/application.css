@@ -181,14 +181,14 @@ height: 350px !important;
 position: absolute;
     width: 450px;
     margin-top: 40px;
-    left: 38%;
+    left: 40%;
 }
 @media screen and (max-width: 600px) {
 .heading-text {
 position: absolute;
     width: 300px;
     margin-top: 40px;
-    left: 15%;
+    left: 20%;
     font-size: 20px;
 }  
 }  
@@ -199,12 +199,27 @@ position: absolute;
   height: 2px;
   width: 50px;
   bottom: -20px;
-  left: 45%;
+  left: 38%;
   background-color: #024a02;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 2;
 }
+
+@media screen and (max-width: 600px) {
+  .heading-text:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    bottom: -20px;
+    left: 45%;
+    background-color: #024a02;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 2;
+  }  
+  }  
 
 .text-menu-item {
 color: #000;
