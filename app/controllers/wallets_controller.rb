@@ -19,6 +19,14 @@ class WalletsController < ApplicationController
 
   # GET /wallets/1/edit
   def edit
+    @wallet = current_user.wallet
+
+    respond_to do |format|
+      if @wallet.coin_type || @wallet.network_address
+        format.html { redirect_to root_path, notice: 'Data cannot be changed by user if you insist contact with us' }
+      end
+    end
+
   end
 
   # POST /wallets

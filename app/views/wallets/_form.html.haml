@@ -5,12 +5,13 @@
       %ul
         - @wallet.errors.full_messages.each do |message|
           %li= message
-          
-  .field
-    = f.label :coin_type
-    = f.number_field :coin_type
-  .field
-    = f.label :network_address
-    = f.text_field :network_address
-  .actions
-    = f.submit 'Save'
+  - if !@wallet.coin_type        
+    .field
+      = f.label :coin_type
+      = f.select :coin_type, Wallet.coin_types.keys.map { |w| [w.humanize, w] }
+    .field
+      = f.label :network_address
+      = f.text_field :network_address
+    .actions
+      = f.submit 'Save'
+

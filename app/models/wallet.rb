@@ -3,7 +3,7 @@ require 'csv'
 class Wallet < ApplicationRecord
 	before_create :set_code
 	enum wallet_type: [:free, :vip]
-	enum coin_type: [:bitcoin, :ethereum]
+	enum coin_type: [:bitcoin, :ethereum, :pln, :usd]
 
 	belongs_to :user, inverse_of: :wallet
 

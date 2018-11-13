@@ -1,24 +1,12 @@
 %h1 Blockchain#index
 %p Find me in app/views/blockchain/index.html.haml
 
+%h2 info dsadsadas
+
 - if !current_user.wallet
 	= form_for(:wallet, url: claim_code_path, html: { method: :post }) do |f|
 		= f.text_field :code
 		= f.submit "Claim"
 - else
-	= form_for current_user.wallet do |f|
-		- if current_user.wallet.errors.any?
-			#error_explanation
-				%h2= "#{pluralize(@wallet.errors.count, "error")} prohibited this wallet from being saved:"
-				%ul
-					- current_user.wallet.errors.full_messages.each do |message|
-						%li= message
-	          
-		.field
-			= f.label :coin_type
-			= f.number_field :coin_type
-		.field
-			= f.label :network_address
-			= f.text_field :network_address
-		.actions
-			= f.submit 'Save'
+	= render 'wallets/form', locals: {wallet: @wallet}
+
