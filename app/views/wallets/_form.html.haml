@@ -1,0 +1,17 @@
+= form_for @wallet do |f|
+  - if @wallet.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@wallet.errors.count, "error")} prohibited this wallet from being saved:"
+      %ul
+        - @wallet.errors.full_messages.each do |message|
+          %li= message
+  - if !@wallet.coin_type        
+    .field
+      = f.label :coin_type
+      = f.select :coin_type, Wallet.coin_types.keys.map { |w| [w.humanize, w] }
+    .field
+      = f.label :network_address
+      = f.text_field :network_address
+    .actions
+      = f.submit 'Save'
+
