@@ -3,10 +3,9 @@
 
 %h2 info dsadsadas
 
-- if !current_user.wallet
-	= form_for(:wallet, url: claim_code_path, html: { method: :post }) do |f|
-		= f.text_field :code
-		= f.submit "Claim"
-- else
-	= render 'wallets/form', locals: {wallet: @wallet}
+= form_for(:wallet, url: claim_code_path, html: { method: :post }) do |f|
+	= f.text_field :code
+	= f.submit "Claim"
+	= link_to 'Get your FishCode', blockchain_token_request_path, class: "btn btn-info"
+	= link_to 'Skip', edit_user_registration_path , class: "btn btn-info"
 

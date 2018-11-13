@@ -7,51 +7,51 @@
         .col-sm-6
           %ul.social
             %li
-              = link_to 'EN', url_for(locale: :en)
+              = link_to 'en', url_for(locale: :en)
             / %li
             /   = link_to 'de', url_for(:locale => 'de')
             %li
-              = link_to 'PL', url_for(locale: 'pl')
+              = link_to 'pl', url_for(locale: 'pl')
         .col-md-6
           %ul.contact
             %li
               %span=I18n.t('header.email_us')
               =I18n.t('e-mail')
--#   %nav.navbar.navbar-default
--#     / Navigation Bar
--#     .container
--#       .navbar-header
--#         %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#main-navigation", "data-toggle" => "collapse", :type => "button"}
--#           %span.sr-only=I18n.t('header.menu')
--#           %i.fa.fa-bars
--#         =link_to image_tag("logo.png", alt: "logo"), {action: 'home', controller: 'static_pages_controller'}, class: 'navbar-brand', style: "margin-top: 7px;"
--#         / Replace with your Logo
--#       #main-navigation.collapse.navbar-collapse
--#         / Main Menu
--#         %ul.nav.navbar-nav.navbar-right
--#           %li
--#             %a.text-menu-item{ :href => "#onas", :title => "O nas" }
--#               O nas
--#           %li
--#             %a.text-menu-item{ :href => "#onas", :title => "O nas" }
--#               Model
--#           %li
--#             %a.text-menu-item{ :href => "#onas", :title => "O nas" }
--#               Współpraca
--#           %li
--#             %a.text-menu-item{ :href => "#onas", :title => "O nas" }
--#               Wkrótce
--#           %li
--#             %a.text-menu-item{ :href => "#onas", :title => "O nas" }
--#               Partnerzy    
--#             / %ul.sub-menu
--#             /   / Sub Menu
--#             /   %li
--#             /     =link_to I18n.t('header.ch_stow'), "https://www.cannabishouse.eu", target: "_blank"
--#             /   %li
--#             /     =link_to I18n.t('header.thc'), "https://www.tradehempcenter.pl", target: "_blank"
--#             /   %li
--#             /     =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
--#           %li
--#             = link_to I18n.t('header.contact'), controller: "static_pages_controller", action: "contact"
- 
+  %nav.navbar.navbar-default
+    / Navigation Bar
+    .container
+      .navbar-header
+        %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#main-navigation", "data-toggle" => "collapse", :type => "button"}
+          %span.sr-only=I18n.t('header.menu')
+          %i.fa.fa-bars
+        =link_to image_tag("logo.png", alt: "logo"), static_pages_controller_home_path, class: 'navbar-brand', style: "margin-top: 7px;"
+        / Replace with your Logo
+      #main-navigation.collapse.navbar-collapse
+        / Main Menu
+        %ul.nav.navbar-nav.navbar-right
+          %li
+            =link_to I18n.t('header.home'), static_pages_controller_home_path
+          %li
+            =link_to I18n.t('header.about'), static_pages_controller_about_path , action: "about"
+            / %ul.sub-menu
+            /   / Sub Menu
+            /   %li
+            /     =link_to I18n.t('header.ch_stow'), "https://www.cannabishouse.eu", target: "_blank"
+            /   %li
+            /     =link_to I18n.t('header.thc'), "https://www.tradehempcenter.pl", target: "_blank"
+            /   %li
+            /     =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
+          %li
+            = link_to I18n.t('header.contact'),static_pages_controller_contact_path
+          - if current_user
+            %li
+              = link_to I18n.t('header.logout'), destroy_user_session_path, method: :delete
+          - else
+            %li
+              = link_to I18n.t('header.login'), new_user_session_path
+            %span.emergency
+              / Emergency Number
+              %i.fa.fa-mobile
+              %span.number=I18n.t('phone_nr')
+              %br/
+              %span.sub-text=I18n.t('office_nr')

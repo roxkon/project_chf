@@ -5,7 +5,7 @@
       %ul
         - @wallet.errors.full_messages.each do |message|
           %li= message
-  - if !@wallet.coin_type        
+  - if !@wallet.coin_type || !@wallet.network_address        
     .field
       = f.label :coin_type
       = f.select :coin_type, Wallet.coin_types.keys.map { |w| [w.humanize, w] }

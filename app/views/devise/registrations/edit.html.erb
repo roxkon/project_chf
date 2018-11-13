@@ -30,12 +30,6 @@
     <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
     <%= f.password_field :current_password, autocomplete: "current-password" %>
   </div>
-  
-  <%= f.fields_for :wallet do |a| %>
-    <%= a.label :network_address %><br />
-    <%= a.text_field :network_address %>
-    <%= a.number_field :id, style: "display: none" %>
-  <% end %>
 
   <div class="actions">
     <%= f.submit "Update" %>

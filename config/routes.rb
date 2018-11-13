@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   get 'blockchain', to: 'blockchain#index'
-  #resources :wallets
-  #devise_for :users, :controllers => { :registrations => 'registrations'}
+  get 'blockchain/token_request', to: 'blockchain#token_request'
+  get ''
+  resources :wallets
+  devise_for :users, :controllers => { :registrations => 'registrations'}
 
   root controller: 'static_pages_controller', action: 'home'
   post 'claim_code', to: 'wallets#claim_code'
