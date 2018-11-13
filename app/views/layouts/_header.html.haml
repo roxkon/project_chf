@@ -43,12 +43,12 @@
             /     =link_to I18n.t('header.grl'), "https://www.grassrootslobbing.pl", target: "_blank"
           %li
             = link_to I18n.t('header.contact'),static_pages_controller_contact_path
-          - if current_user
-            %li
-              /= link_to I18n.t('header.logout'), destroy_user_session_path, method: :delete
-          - else
-            %li
-              /= link_to I18n.t('header.login'), new_user_session_path
+          //- if current_user
+          %li
+            /= link_to I18n.t('header.logout'), destroy_user_session_path, method: :delete
+          //- else
+          %li
+            /= link_to I18n.t('header.login'), new_user_session_path
             %span.emergency
               / Emergency Number
               %i.fa.fa-mobile
