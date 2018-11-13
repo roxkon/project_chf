@@ -4,41 +4,44 @@
     / Primary Footer
     .container
       .row
-        .col-sm-8.col-sm-offset-2.text-center
+        .col-md-12.text-center
           .widget.widget-about
-            %p
-              =I18n.t('footer.up_to_date')
-            %hr.hr-1/
-            %ul.social
-              %li
-                %a{:href => ""}
-                  %i.fa.fa-facebook
-              %li
-                %a{:href => ""}
-                  %i.fa.fa-twitter
-              %li
-                %a{:href => ""}
-                  %i.fa.fa-linkedin
-              %li
-                %a{:href => ""}
-                  %i.fa.fa-youtube
-            %br/
-            %br/
-            %ul.contact
-              %li
-                %i.fa.fa-phone
-                =I18n.t('office_nr')
-                %i.fa.fa-phone-square
-                =I18n.t('phone_nr')
-              %li
-                %i.fa.fa-envelope
-                =I18n.t('footer.e-mail')
+            .col-md-4
+              %h5.footer-title{style: "text-transform: none;"}
+                =I18n.t('footer.service_pl')
+              %ul.contact
+                %li
+                  %i.fa.fa-phone
+                  =I18n.t('office_nr_pl')
+                  %br
+                  %i.fa.fa-envelope
+                  =I18n.t('mail_pl')
+            .col-md-4
+              %h5.footer-title{style: "text-transform: none;"}
+                =I18n.t('footer.service_en')
+              %ul.contact
+                %li
+                  %i.fa.fa-phone
+                  =I18n.t('office_nr_en')
+                  %br
+                  %i.fa.fa-envelope
+                  =I18n.t('mail_en')   
+            .col-md-4         
+              %h5.footer-title{style: "text-transform: none;"}
+                Canna Hub Sp. Z o.o. 
+              %ul.contact
+                %li
+                  %i.fa.fa-map-marker
+                  Aleja Solidarności 68/121
+                  %br
+                  %i.fa
+                  00-240 Warszawa, Polska
   .footer-sec
-    / Secondary Footer
     .container
       .row
         .col-sm-12
-          %span
-            =I18n.t('footer.copywright') 
-            =link_to "Canna Hub Sp. z o.o. ", static_pages_controller_home_path
+          %span.text-comapny 
+            =I18n.t('footer.copywright')
+            =link_to "Canna Hub Sp. z o.o. ", controller: "static_pages_controller", action: "home"
             =I18n.t('footer.reserved')
+ 

@@ -22,6 +22,7 @@
 //= require script
 //= require gmap
 //= require jquery.themepunch.enablelog
+//= slick.min
 //= require jquery.themepunch.revolution
 //= require jquery.themepunch.tools.min
 //= require revolution.extension.actions.min
@@ -34,3 +35,4 @@
 //= require revolution.extension.slideanims.min
 //= require revolution.extension.video.min
 //= require_tree .
+

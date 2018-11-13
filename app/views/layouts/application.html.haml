@@ -15,10 +15,15 @@
     / Google Fonts
     %link{:href => "https://fonts.googleapis.com/css?family=Exo+2|Open+Sans:300,400,700", :rel => "stylesheet"}/
     %link{:href => "https://fonts.googleapis.com/css?family=Exo+2|Volkhov:400,400i", :rel => "stylesheet"}/
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css", :rel => "stylesheet"}/
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css", :rel => "stylesheet"}/
+    %link{:href => "https://fonts.googleapis.com/css?family=Montserrat", :rel => "stylesheet"}
 
     / Respond.js and HTML shiv provide HTML5 support in older browsers like IE9 and 8
     /[if lt IE 9]
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     %title= full_title(yield(:title))
     = csrf_meta_tags
@@ -28,9 +33,14 @@
     -#= render 'layouts/loader'
     = render 'layouts/header'
     = render 'layouts/slider'
-    - flash.each do |k, v|
-      %div{:id => k}= v
+    -# = render 'layouts/top_logo'
     = yield
+    = render 'layouts/new_about'
+    = render 'layouts/terapy'
+    = render 'layouts/model'
+    = render 'layouts/collborators'
+    = render 'layouts/soon'
+    = render 'layouts/carousel'
     = render 'layouts/footer'
 
 / Permission for Setting Cookies
@@ -40,5 +50,5 @@
 /       .col-sm-12
 /         Szanowna Użytkowniczko! Szanowny Użytkowniku!
 /         Aby dalej móc dostarczać coraz lepsze materiały redakcyjne i udostępniać coraz lepsze usługi, potrzebujemy zgody na dopasowanie treści marketingowych do Twojego zachowania. Dzięki nim możemy finansować rozwój naszych usług. Dbamy o Twoją prywatność. Nie zwiększamy zakresu naszych uprawnień. Twoje dane są u nas bezpieczne, a zgodę możesz wycofać w każdej chwili na podstronie polityka prywatności.
-/         \  
+/         \
 /         %button.btn.btn-primary.btn-sm{"data-dismiss" => "alert", :type => "button"} Akceptuję
