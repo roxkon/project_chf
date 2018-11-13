@@ -90,6 +90,14 @@
 {
     display: block;
 }
+
+@media screen and (max-width: 600px) {
+.slick-slide img{
+        display: block;
+        width: 100px;
+}
+}
+
 .slick-slide.slick-loading img
 {
     display: none;

@@ -1647,6 +1647,11 @@ blockquote footer{
 .feature-box.left{
     text-align: right;
 }
+@media screen and (max-width: 600px) {
+.feature-box.left{  
+text-align: left;
+}
+}
 
 .feature-box.right{
     text-align: left;
@@ -1657,6 +1662,13 @@ blockquote footer{
     padding-left: 30px;
 
 }
+@media screen and (max-width: 600px) {
+.feature-box.left .text{
+padding-right: 25px;
+padding-left: 30px;
+}
+}
+
 
 .feature-box.right .text{
     padding-left: 60px;
@@ -1687,6 +1699,13 @@ blockquote footer{
 
 .feature-box.left .count{
     float: right;
+}
+@media screen and (max-width: 600px) {
+    .feature-box.left .count {
+        float: left;
+        margin-right: 20px;
+        margin-top: 12px;
+    }
 }
 
 .feature-box.right .count{
@@ -2097,6 +2116,11 @@ blockquote footer{
     color: #fff;
     text-align: right;
 }
+@media screen and (max-width: 600px) {
+.health-tips-1 .heading{
+    text-align: left;
+}
+}
 
 .health-tips-2 .heading{
     font-size: 30px;
@@ -2110,11 +2134,23 @@ blockquote footer{
     color: #004c00;
 }
 
+@media screen and (max-width: 600px) {
+    .health-tips-1 .tips{
+        padding: 20px;
+        text-align:left;
+    }
+    }
+
 .health-tips-2 .tips{
     list-style: none;
     padding: 0px;
     text-align: left;
     color: #024a02;
+}
+@media screen and (max-width: 600px) {
+.health-tips-2 .tips{
+    padding: 20px;
+}
 }
 
 .health-tips-1 .tips p{
@@ -2132,6 +2168,16 @@ blockquote footer{
 {
     padding: 20px 0px;
 }
+
+@media screen and (max-width: 600px) {
+.health-tips-1 .tips li,
+.health-tips-2 .tips li
+{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+}
+
 
 .health-tips-1 .tips li:last-child,
 .health-tips-2 .tips li:last-child{
@@ -2165,12 +2211,25 @@ blockquote footer{
     background-color: #004c00;
 }
 
+@media screen and (max-width: 600px) {
+.health-tips-1 .tips li .count{
+    float: left;
+    margin-right: 20px;
+}
+}
+
 .health-tips-2 .tips li .count{
     float: left;
     margin-right: 20px;
     color: #fff;
     background-color: #024a02;
 }
+
+@media screen and (max-width: 600px) {
+    .health-tips-2 .tips li .count{
+        float: left;
+    }
+    }
 
 /* App download */
 

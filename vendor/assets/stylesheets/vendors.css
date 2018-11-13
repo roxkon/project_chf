@@ -15,12 +15,22 @@ Author URL: http://wwsthemes.com
 .parallax {
  	background-size:140%;
  	background-attachment:fixed;
- 	background-position: center center;
+   background-position: center center;
+  background-position: "50% -96.875px"
 }
 
 @media only screen and (min-width: 1200px){
     .parallax{
-		background-size:cover;
+    background-size:cover;
+    background-image: url('weed6.jpg');
+	}
+}
+
+@media screen and (max-width: 600px) {
+  .parallax{
+    background-size:cover;
+    background-color: #f7f7f7;
+    text-align: center;
 	}
 }
 

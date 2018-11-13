@@ -122,7 +122,15 @@ margin: 20px 0px 0px 34px;
 .content-center {
   display: flex;
   justify-content: center;
+  margin-top: 75px;
 }
+@media screen and (max-width: 600px) {
+.content-center {
+  margin-top: 30px;
+}
+}
+
+
 
 h2 {
   text-transform: uppercase;
@@ -134,12 +142,28 @@ h2 {
   margin-bottom: 60px;
 }
 
+@media screen and (max-width: 600px) {
+  .margin-model-component {
+    padding-top: 40px;
+    margin-bottom: 60px;
+    padding-left: 20px;
+  }
+}
+
 body {
   font-family: 'Montserrat', sans-serif!important;
 }
 
 .fullwidthbanner-container, .rev_slider {
   height: 300px;
+}
+@media screen and (max-width: 600px) {
+.fullwidthbanner-container, .rev_slider {
+max-height: 350px;
+margin-top: 40px;
+margin-bottom: 0px;
+height: 350px !important;
+}
 }
 
 .tparrows {
@@ -159,6 +183,15 @@ position: absolute;
     margin-top: 40px;
     left: 38%;
 }
+@media screen and (max-width: 600px) {
+.heading-text {
+position: absolute;
+    width: 300px;
+    margin-top: 40px;
+    left: 15%;
+    font-size: 20px;
+}  
+}  
 
 .heading-text:before{
   content: "";
@@ -254,3 +287,37 @@ transition: 350ms all ease;
 .heading-aj.inverse .sub-heading{
   color: #fff;
 }
+
+.about-new-top {
+  margin-top: -70px
+}
+
+@media screen and (max-width: 600px) {
+  .about-new-top {
+    margin-top: 75px
+  }
+}
+
+@media screen and (max-width: 600px) {
+.soon-icon {
+text-align: left;
+padding-left: 75px;
+margin-top: 14px;
+width: 280px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.media-help {
+  margin-top: -230px;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+  .media-help2 {
+    margin-left: -20px;
+  }
+  }
+  
+
