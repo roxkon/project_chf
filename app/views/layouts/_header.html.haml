@@ -32,7 +32,7 @@
           %li
             =link_to I18n.t('header.home'), static_pages_controller_home_path
           %li
-            =link_to I18n.t('header.about'), controller: "static_pages_controller", action: "about"
+            =link_to I18n.t('header.about'), static_pages_controller_about_path , action: "about"
             / %ul.sub-menu
             /   / Sub Menu
             /   %li
@@ -45,10 +45,10 @@
             = link_to I18n.t('header.contact'),static_pages_controller_contact_path
           - if current_user
             %li
-              = link_to I18n.t('header.logout'), destroy_user_session_path, method: :delete
+              /= link_to I18n.t('header.logout'), destroy_user_session_path, method: :delete
           - else
             %li
-              = link_to I18n.t('header.login'), new_user_session_path
+              /= link_to I18n.t('header.login'), new_user_session_path
             %span.emergency
               / Emergency Number
               %i.fa.fa-mobile
