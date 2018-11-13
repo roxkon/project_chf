@@ -1,0 +1,27 @@
+%h1 Listing wallets
+
+%table
+  %thead
+    %tr
+      %th Code
+      %th Coin type
+      %th Limit
+      %th Network address
+      %th
+      %th
+      %th
+
+  %tbody
+    - @wallets.each do |wallet|
+      %tr
+        %td= wallet.code
+        %td= wallet.coin_type
+        %td= wallet.limit
+        %td= wallet.network_address
+        %td= link_to 'Show', wallet
+        %td= link_to 'Edit', edit_wallet_path(wallet)
+        %td= link_to 'Destroy', wallet, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Wallet', new_wallet_path

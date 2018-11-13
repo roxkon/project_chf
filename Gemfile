@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'haml-rails', '~> 1.0'
+gem 'devise'
+gem 'jquery-rails'
 
 #Use gem I18n for internationalization
 gem 'i18n'
