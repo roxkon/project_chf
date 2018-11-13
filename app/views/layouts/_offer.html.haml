@@ -3,33 +3,38 @@
     .col-md-12
       .heading-block
         %h2.heading
-          Zakres
-          %span.color1 Działań
+          =I18n.t('offer.title')
 .container
   .row
     .col-md-4
       %div.box
         =link_to image_tag("logotypes/import_export.svg",width: '60px', class: "icons_offer",alt: "TRADE HEMP CENTER Sp. z o.o."), "http://www.tradehempcenter.pl", target: "_blank"
-      %p.offer-paragraf Import surowca na rynek UE dla wytwórców substancji czynnej
+      %p.offer-paragraf 
+        =I18n.t('offer.content1')
     .col-md-4
       %div.box
         =link_to image_tag("logotypes/wprowadzenie_produktu.svg",width: '60px', class: "icons_offer",alt: "TRADE HEMP CENTER Sp. z o.o."), "http://www.tradehempcenter.pl", target: "_blank"
-      %p.offer-paragraf Wprowadzania produktów do obrotu na rynek UE
+      %p.offer-paragraf 
+        =I18n.t('offer.content2')
     .col-md-4
       %div.box
         =link_to image_tag("logotypes/badania_naukowe.svg",width: '60px', class: "icons_offer",alt: "TRADE HEMP CENTER Sp. z o.o."), "http://www.tradehempcenter.pl", target: "_blank"
-      %p.offer-paragraf Działalność Badawczo – Rozwojowa
+      %p.offer-paragraf 
+        =I18n.t('offer.content3')
 .container
   .row      
     .col-md-4
       %div.box
         =link_to image_tag("logotypes/doradztwo_prawne.svg",width: '60px', class: "icons_offer",alt: "TRADE HEMP CENTER Sp. z o.o."), "http://www.tradehempcenter.pl", target: "_blank"
-      %p.offer-paragraf Doradztwo prawne dla Twojego biznesu w Unii Europejskiej
+      %p.offer-paragraf 
+        =I18n.t('offer.content4')
     .col-md-4
       %div.box
         =link_to image_tag("logotypes/dedykowane_it.svg",width: '60px', class: "icons_offer",alt: "TRADE HEMP CENTER Sp. z o.o."), "http://www.tradehempcenter.pl", target: "_blank"
-      %p.offer-paragraf Dedykowana rozwiązania IT
+      %p.offer-paragraf 
+        =I18n.t('offer.content5')
     .col-md-4
       %div.box
         =link_to image_tag("logotypes/blockchain.svg",width: '60px', class: "icons_offer",alt: "TRADE HEMP CENTER Sp. z o.o."), "http://www.tradehempcenter.pl", target: "_blank"
-      %p.offer-paragraf Zastosowanie technologii blockchain                    
+      %p.offer-paragraf 
+        =I18n.t('offer.content6')                    

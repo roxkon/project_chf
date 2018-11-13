@@ -62,6 +62,9 @@ pl:
     e-mail: "biuro@cannahub.eu"
     copywright: "Copyright © 2017-2018"
     reserved: "All rights Reserved."
+    service_pl: "Obsługa w języku polskim"
+    service_en: "Obsługa w języku angielskim"
+    
 
   home: 
     title: "Strona Główna"
@@ -93,6 +96,46 @@ Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnyc
       h1: "wprowadzania produktów "
       sub_head7: "do obrotu na rynek UE"
 
+  new_about:
+      p1: "CannaHub to platforma integrującą możliwości administracyjne, produkcyjne i logistyczne w celu dostarczania preparatów medycznych na bazie konopi.Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnych Pacjentów w Polsce i na terenie krajów Unii Europejskiej, gdzie terapia medyczną marihuaną jest prawem pacjenta."    
+      p2: "Zgodnie z prawem, do obrotu oraz importu do Polski dopuszczone są leki gotowe pochodzenia roślinnego, jak również standaryzowane surowce w postaci roślinnej (suszone kwiatostany) oraz w postaci wyciągów przeznaczone do sporządzania leków recepturowych w aptece na podstawie preskrypcji lekarskiej bądź przeznaczone do dalszego procesu produkcyjnego jako substancje czynne."
+      p3: "Podstawę prawną w Polsce określa ustawa z dnia 7 lipca 2017 r. o zmianie ustawy o przeciwdziałaniu narkomanii oraz ustawy o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych."
+      p4: "Od 1 listopada 2017 r. przepisy prawa regulują rejestrację, wytwarzanie i wprowadzanie do obrotu w Polsce preparatów medycznych na bazie konopi oraz stosowanie zarejestrowanych preparatów w lecznictwie."
+  
+  model:
+      title: "Nasz Model"
+      content1: "Import surowca na rynek UE dla wytwórców substancji czynnej"
+      content2: "Dedykowana rozwiązania IT"
+      content3: "Działalność Badawczo – Rozwojowa"
+      content4: "Doradztwo prawne dla Twojego biznesu w Unii Europejskiej"
+      content5: "Wprowadzania produktów do obrotu na rynek UE"
+      content6: "Zastosowanie technologii blockchain"
+
+  offer:
+      title:  "Zakres Działań"
+      content1: "Import surowca na rynek UE dla wytwórców substancji czynnej"
+      content2: "Wprowadzania produktów do obrotu na rynek UE"
+      content3: "Działalność Badawczo – Rozwojowa"
+      content4: "Doradztwo prawne dla Twojego biznesu w Unii Europejskiej"
+      content5: "Dedykowana rozwiązania IT"
+      content6: "Zastosowanie technologii blockchain"
+
+
+  soon:
+    title:  "Nowe sekcje wkrótce"
+    content1: "Pacjęci"
+    content2: "Farmaceuci"
+    content3: "Blockchain"
+    content4: "Przedsiębiorcy"
+    content5: "Badania"
+    content6: "Lekarze"
+    content7: "Inwestorzy"    
+    content8: "Dostawcy"
+
+  terapy:
+    title: "Terapia medyczną marihuaną jest dopuszczona w 14 krajach Unii Europejskiej."      
+  
+
   about: 
     title: "O nas"
     act: "Ustawa"
@@ -107,6 +150,16 @@ Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnyc
     central_main: "Od 1 listopada 2017r. przepisy prawa regulują rejestrację, wytwarzanie i wprowadzanie do obrotu w Polsce preparatów medycznych na bazie konopi oraz stosowanie zarejestrowanych preparatów w lecznictwie."
     legal_basis: "Podstawa prawna"
     legal_main: "z dnia 7 lipca 2017 r. o zmianie ustawy o przeciwdziałaniu narkomanii oraz ustawy o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych"
+    partners: "Nasi partnerzy"
+
+  slider:
+    title: "PLATFORMA KOMUNIKACYJNA"
+
+
+  collaborators:
+    title: "Jesteśmy otwarci na współpracę"  
+    title2: "Zapraszamy międzynarodowych partnerów do współpracy w zakresie rozwoju, dostaw produktów, protokołu badawczo - naukowego i technologii"  
+
 
   hub:
     title: "Projekt HUBa"
