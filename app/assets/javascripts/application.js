@@ -35,4 +35,3 @@
 //= require revolution.extension.slideanims.min
 //= require revolution.extension.video.min
 //= require_tree .
-

@@ -6,6 +6,9 @@ class Wallet < ApplicationRecord
 	enum coin_type: [:bitcoin, :ethereum, :pln, :usd]
 
 	belongs_to :user, inverse_of: :wallet
+	has_many :transactions
+
+  accepts_nested_attributes_for :transactions
 
 	def self.to_csv
 		attributes = %w{id code wallet_type}

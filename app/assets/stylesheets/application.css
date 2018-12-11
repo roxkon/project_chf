@@ -220,6 +220,9 @@ position: absolute;
     z-index: 2;
   }  
   }  
+.modal-label {
+  color: black;
+}
 
 .text-menu-item {
 color: #000;

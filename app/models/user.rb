@@ -5,5 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
  has_one :wallet, inverse_of: :user
- accepts_nested_attributes_for :wallet
+ has_many :transactions
+ 
+ accepts_nested_attributes_for :wallet, :transactions
 end

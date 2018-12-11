@@ -1,11 +1,16 @@
-%h1 Blockchain#index
-%p Find me in app/views/blockchain/index.html.haml
+.modal-label
+	%h1 Blockchain#index
+	%p Find me in app/views/blockchain/index.html.haml
 
-%h2 info dsadsadas
+	%h2 info dsadsadas
 
-= form_for(:wallet, url: claim_code_path, html: { method: :post }) do |f|
-	= f.text_field :code
-	= f.submit "Claim"
-	= link_to 'Get your FishCode', blockchain_token_request_path, class: "btn btn-info"
-	= link_to 'Skip', edit_user_registration_path , class: "btn btn-info"
-
+	- if !@wallet 
+		= form_for(:wallet, url: claim_code_path, html: { method: :post }) do |f|
+			= f.text_field :code, class: "input form-control"
+			%br
+			= f.submit "Claim", class: "btn btn-info"
+			= link_to 'Get your FishCode', blockchain_token_request_path, class: "btn btn-info"
+			= link_to 'Skip', blockchain_dashboard_path , class: "btn btn-info"
+%br
+%br
+%br

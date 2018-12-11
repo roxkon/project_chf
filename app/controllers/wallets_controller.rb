@@ -23,7 +23,7 @@ class WalletsController < ApplicationController
 
     respond_to do |format|
       if @wallet.coin_type || @wallet.network_address
-        format.html { redirect_to root_path, notice: 'Data cannot be changed by user if you insist contact with us' }
+        format.js { render partial: 'blockchain/choose_payment' }
       end
     end
 

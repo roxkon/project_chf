@@ -1,1 +1,12 @@
-%h1 Blockchain#fiat_payment
+.ccc
+  Type of your transaction 
+  %br            
+= f.text_field :paid_from_address, class: "input form-control"
+.ccc
+  Amount of coins you would like to buy 
+  %br              
+= f.number_field :amount, class: "input form-control"
+.ccc
+  Your ETH/ERC20 Wallet for CanaCoins 
+  %br 
+  = @wallet.network_address

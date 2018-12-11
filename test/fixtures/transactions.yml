@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  wallet: one
+  paid_from_address: MyText
+  amount: 
+  coin_type: 
+  course: 
+  value: 
+
+two:
+  user: two
+  wallet: two
+  paid_from_address: MyText
+  amount: 
+  coin_type: 
+  course: 
+  value: 

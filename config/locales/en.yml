@@ -40,8 +40,9 @@ en:
     ch_stow: "Stowarzyszenie Cannabis House"
     partners: "Partners"
     offer: "Offer"
-    login: "Blockchain"
+    login: "Log in"
     logout: "Log out"
+    blockchain: "Blockchain"
     hub:
       hub: "Canna HUB"
       mission: "Mission"

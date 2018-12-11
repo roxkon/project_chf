@@ -1,12 +1,12 @@
 "use strict";
 
 $(window).on("load",function(){
-
     $(".loader-backdrop").fadeOut();
     
     if($(".modal").length){
         $(".modal").each(function(){
             var currentModal=$(this);
+    console.log('aaa');
 
             if((currentModal.attr("data-open-onload"))=="true"){    // Checks Each Modal
                setTimeout(function(){

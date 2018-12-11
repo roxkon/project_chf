@@ -1,0 +1,34 @@
+
+#modal-checkcode.modal.fade{"data-open-delay" => "0", "data-open-onload" => "false", role: "dialog", style: "display: none;", tabindex: "-1"}
+  .modal-dialog.modal-lg{role: "document"}
+    .modal-content
+      %button.close{"aria-label" => "Close", "data-dismiss" => "modal", type: "button"}
+        %i.fa.fa-times
+      .modal-body
+        .container-fluid
+        #transaction-modal
+          - if !@wallet
+            = form_for(:wallet, url: claim_code_path, remote: true, html: { method: :post }) do |f|
+              = f.text_field :code, class: "input form-control"
+              %br
+              = f.submit "Claim", class: "btn btn-info"
+          - if !@transaction
+            // ukryć po wypełnieniu
+            = form_for(:transaction, url: blockchain_transaction_path, remote: true, html: { method: :post }) do |f|
+              .modal-label
+                Type of your transaction 
+                %br
+              = f.select :coin_type, Transaction.coin_types.keys.map { |w| [w.humanize, w] }
+              .modal-label
+                Your Wallet which you will be paing FROM 
+                %br              
+              = f.text_field :paid_from_address, class: "input form-control"
+              .modal-label
+                Amount of coins you would like to buy  
+                %br              
+              = f.number_field :amount, class: "input form-control"
+              .modal-label
+                Transaction debt            
+                = f.number_field :value, class: "input form-control", readonly: true              
+
+              = f.submit "Accept Payment", class: "btn btn-info"
