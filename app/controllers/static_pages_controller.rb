@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+    @show_logo = true
   end
 
   def about

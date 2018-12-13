@@ -5,7 +5,7 @@ class Wallet < ApplicationRecord
 	enum wallet_type: [:free, :vip]
 	enum coin_type: [:bitcoin, :ethereum, :pln, :usd]
 
-	belongs_to :user, inverse_of: :wallet
+	belongs_to :user, inverse_of: :wallet, optional: true
 	has_many :transactions
 
   accepts_nested_attributes_for :transactions

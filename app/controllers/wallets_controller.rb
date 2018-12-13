@@ -36,15 +36,15 @@ class WalletsController < ApplicationController
     respond_to do |format|
       if @wallet
         if @wallet.user
-          format.html { redirect_to blockchain_path, notice: 'Wallet is already in use.' }
+          format.html { redirect_to blockchain_path, notice: 'Rybka jest juz w uzyciu' }
         else
           @wallet.user = current_user
           @wallet.save!
-          format.html { redirect_to blockchain_path, notice: 'Wallet was successfully claimed.' }
+          format.html { redirect_to blockchain_dashboard_path, notice: 'Rybka odebrana' }
         end
       else
         # fucked up!!
-        format.html { redirect_to blockchain_path, notice: 'Wallet deosn\'t exist' }
+        format.html { redirect_to blockchain_path, notice: 'Rybka nie istnieje' }
       end
     end
   end

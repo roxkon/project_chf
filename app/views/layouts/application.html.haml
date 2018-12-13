@@ -32,15 +32,9 @@
   %body
     -#= render 'layouts/loader'
     = render 'layouts/header'
-    = render 'layouts/slider'
+    = render 'layouts/slider' if @show_logo
     -# = render 'layouts/top_logo'
     = yield
-    = render 'layouts/new_about'
-    = render 'layouts/terapy'
-    = render 'layouts/model'
-    = render 'layouts/collborators'
-    = render 'layouts/soon'
-    = render 'layouts/carousel'
     = render 'layouts/footer'
 
 / Permission for Setting Cookies

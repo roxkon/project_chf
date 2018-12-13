@@ -6,14 +6,18 @@ class ApplicationController < ActionController::Base
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
   end
-  
+
   def default_url_options
     { locale: I18n.locale }
   end
 
   def after_sign_in_path_for(resource_or_scope)
-	  blockchain_path
-	end
+    if resource_or_scope.wallet
+      blockchain_dashboard_path
+    else
+	    blockchain_path
+    end
+  end
 
   protected
 
@@ -23,5 +27,5 @@ class ApplicationController < ActionController::Base
       user_params.permit( :email, :password, :password_confirmation, :current_password, :wallet_attributes => [:id, :network_address])
     end
   end
-  
+
 end

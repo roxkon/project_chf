@@ -1,16 +1,12 @@
-.modal-label
-	%h1 Blockchain#index
-	%p Find me in app/views/blockchain/index.html.haml
-
-	%h2 info dsadsadas
-
-	- if !@wallet 
-		= form_for(:wallet, url: claim_code_path, html: { method: :post }) do |f|
-			= f.text_field :code, class: "input form-control"
-			%br
-			= f.submit "Claim", class: "btn btn-info"
-			= link_to 'Get your FishCode', blockchain_token_request_path, class: "btn btn-info"
-			= link_to 'Skip', blockchain_dashboard_path , class: "btn btn-info"
-%br
-%br
-%br
+.row.mb-60.mt-60{style: "background-color: white; min-height: 60%;"}
+	.col-md-8.col-md-offset-2
+		.centered
+			%h1 Odbierz swoją rybkę.
+		- if !@wallet
+			= form_for(:wallet, url: claim_code_path, html: { method: :post }) do |f|
+				= f.text_field :code, class: "input form-control"
+				%br
+				= f.submit "Odbierz", class: "btn btn-success"
+				-# = link_to 'Get your FishCode', blockchain_token_request_path, class: "btn btn-success"
+				-# = link_to 'Skip', blockchain_dashboard_path , class: "btn btn-success"
+			= flash[:notice]

@@ -1,0 +1,19 @@
+.jumbotron{:style => "background-image: url(#{image_url 'register_background'})"}
+  .container
+    .row.flex-row
+      .col-sm-8.valign-center
+        %h1.heading.inverse Twój portfel, limity i wiele więcej.
+      .col-sm-4
+        .slider-box-appointment
+          .header
+            %h3.heading.font-2.text-center Zaloguj się
+          %hr.hr-2/
+          .body
+            = form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f|
+              = devise_error_messages!
+              .field
+                = f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Twój email", class: "form-control"
+              .actions
+                = f.submit "Wyślij instrukcje", class: "btn btn-success"
+            = render "devise/shared/links"
+

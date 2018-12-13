@@ -1,16 +1,24 @@
-= 'Email'
-= @user.email
-.br
-- if @wallet
-	= 'Limit'
-	= @user.wallet.limit
-	.br
-	= "Network Address"
-	= @user.wallet.network_address
-	.br
-	= "Fish Code"
-	= @user.wallet.code
+.jumbotron{:style => "background-image: url(#{image_url 'register_background'})"}
+	.container
+		.row.flex-row
+			.col-sm-6.col-sm-offset-3
+				.slider-box-appointment
+					.header
+						%h3.font-2.text-center= "Witaj #{@user.email}"
+					%hr.hr-2/
+					.body
 
-.br
-= link_to 'Edit data', edit_user_registration_path
-= link_to "Back", root_path
+						.br
+						- if @wallet
+							= 'Limit'
+							= @user.wallet.limit
+							.br
+							= "Adres portfela"
+							= @user.wallet.network_address || "Nie uzupełniono"
+							.br
+							= "Kod rybki"
+							= @user.wallet.code
+
+						.br
+						= link_to 'Edytuj', edit_user_registration_path
+						= link_to "Cofnij", root_path
