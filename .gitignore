@@ -10,8 +10,9 @@
 # Ignore all logfiles and tempfiles.
 /log/**/*
 /tmp/**/*
-!/log/.keep 
-!/tmp/.keep 
+!/log/.keep
+!/tmp/.keep
+tmp/**/*
 
 # Ignore uploaded files in development
 /storage/*

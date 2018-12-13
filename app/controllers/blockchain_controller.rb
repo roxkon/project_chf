@@ -3,7 +3,6 @@ class BlockchainController < ApplicationController
 
   def index
   	@wallet = current_user.wallet
- 	
   end
 
   def token_request
@@ -19,17 +18,15 @@ class BlockchainController < ApplicationController
     @user = current_user
 
     @transaction = Transaction.new( coin_type: params[:transaction][:coin_type],
-                                    paid_from_address: params[:transaction][:paid_from_address], 
+                                    paid_from_address: params[:transaction][:paid_from_address],
                                     amount: params[:transaction][:amount],
                                     user_id: @user.id,
                                     wallet_id: @wallet.id)
-    p @transaction.inspect
-    respond_to do |format|
-      if @transaction
-        @transaction.save
+
+                                    respond_to do |format|
+      if @transaction.save
         format.js { render partial: 'blockchain/choose_payment' }
       else
-        # fucked up!!
         format.html { redirect_to blockchain_path, notice: 'ERROR' }
       end
     end
