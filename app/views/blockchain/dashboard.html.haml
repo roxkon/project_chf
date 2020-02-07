@@ -13,6 +13,9 @@
 							= 'Limit'
 							= @user.wallet.limit
 							.br
+							= "TYP"
+							= @user.wallet.coin_type || "Nie uzupełniono"
+							.br
 							= "Adres portfela"
 							= @user.wallet.network_address || "Nie uzupełniono"
 							.br
