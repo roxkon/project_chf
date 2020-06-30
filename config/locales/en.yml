@@ -103,20 +103,16 @@ en:
       service_en: "Service in English"
 
   new_about:
-      p1: "CannaHub is a platform that integrates administration, production and logistics capabilities to deliver medical preparations based on cannabis. Our solutions are a real improvement in the quality of patients lifes and disabled Patients in Poland and in European Union countries where medical treatment of marijuana is a patient's right."    
-      p2: "Pursuant to the law, ready-made medicines of plant origin as well as standardized raw materials in plant form (dried inflorescences) and in the form of extracts intended for preparation of prescription drugs in a pharmacy on the basis of medical prescription or intended for further production process are allowed for circulation and import to Poland. active substances."
-      p3: "The legal basis in Poland is specified in the Act of 7 July 2017 amending the act on counteracting drug addiction and the act on reimbursement of medicines, foodstuffs for particular nutritional purposes and medical devices"
-      p4: "From November 1, 2017. legal provisions regulate the registration, manufacture and marketing of medical preparations based on hemp in Poland and the use of registered preparations in medicine."
+      p1: "About the project"    
+      p2: "As the result of the technology development and the increasing awareness of hemp within the society, we have decided to unite these two fields by the innovative project called Canna::Block::Chain founded by CFT."
+      p3: "Our goal"
+      p4: "We aim to create unique cryptocurrency and application which would make the access to the Dyspensarium very simple, from anywhere in Poland."
   
   model:
-      title: "Our Model"
-      content1: "Import of raw material to the EU market for active substance manufacturers"
-      content2: "Dedicated IT solutions"
-      content3: "Research and development activity"
-      content4: "Legal advice for your business on the EU market"
-      content5: "Product Introduction for trading on the EU market"
-      content6: "Application of blockchain technology"
+      title: "Maybe you are the person we are looking for?"
+      content1: "Are you a programmer with passion, who would like to have a real influence on the promising project in field of cryptocurrency and blockchain technology?"
 
+      
   offer:
       title:  "Zakres Działań"
       content1: "Import surowca na rynek UE dla wytwórców substancji czynnej"
@@ -128,20 +124,18 @@ en:
 
 
   soon:
-    title:  "NEW SECTIONS SOON"
-    content1: "Patients"
-    content2: "Pharmacists"
-    content3: "Blockchain"
-    content4: "Entrepreneurs"
-    content5: "Research and science"
-    content6: "Doctors"
-    content7: "Investors"    
-    content8: "Suppliers"
+    title:  "Job description"
+    content1: "Development of innovative solutions concerning cryptocurrencies and blockchain technology"
+    content2: "Participation in formulating the concept and     planning new modules and functionality"
+    content3: "Preparation and looking after the documentation of the project"
+    content4: "Improvement of implemented solutions, in regards     to their performance and technology"
+    content5: "Verification of quality of the software"
+
 
 
 
   terapy:
-    title: "Medical marijuana treatment is possible in 14 countries of the European Union."      
+    title: "Are you a programmer?"      
   
 
   slider:
@@ -149,8 +143,14 @@ en:
 
 
   collaborators:
-    title: "We are open to cooperation"  
-    title2: "We welcome international partners to cooperates on the field of development, product supply, research and science protocol and technology."  
+    title:  "Our requirements"
+    title2:  "Very good command of Ruby/Javascript language,     the knowledge of Ruby on Rails framework and React Library is an     additional value 
+    Practical knowledge of Relation Database SQL (PostgreSQL preferred)
+    The competent usage of version control system (GIT preferred)
+    Knowledge of Rspec,     JavaScript (ES6), Cypress, GraphQL, TypeScript
+    Attentive to details in order to keep the high     quality of the code
+    The basic administrative skills of Linux and knowledge of tools, supporting the software development process
+    Skills related to optimization and scaling of applications"
 
 
 

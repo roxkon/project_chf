@@ -97,19 +97,14 @@ Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnyc
       sub_head7: "do obrotu na rynek UE"
 
   new_about:
-      p1: "CannaHub to platforma integrującą możliwości administracyjne, produkcyjne i logistyczne w celu dostarczania preparatów medycznych na bazie konopi.Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnych Pacjentów w Polsce i na terenie krajów Unii Europejskiej, gdzie terapia medyczną marihuaną jest prawem pacjenta."    
-      p2: "Zgodnie z prawem, do obrotu oraz importu do Polski dopuszczone są leki gotowe pochodzenia roślinnego, jak również standaryzowane surowce w postaci roślinnej (suszone kwiatostany) oraz w postaci wyciągów przeznaczone do sporządzania leków recepturowych w aptece na podstawie preskrypcji lekarskiej bądź przeznaczone do dalszego procesu produkcyjnego jako substancje czynne."
-      p3: "Podstawę prawną w Polsce określa ustawa z dnia 7 lipca 2017 r. o zmianie ustawy o przeciwdziałaniu narkomanii oraz ustawy o refundacji leków, środków spożywczych specjalnego przeznaczenia żywieniowego oraz wyrobów medycznych."
-      p4: "Od 1 listopada 2017 r. przepisy prawa regulują rejestrację, wytwarzanie i wprowadzanie do obrotu w Polsce preparatów medycznych na bazie konopi oraz stosowanie zarejestrowanych preparatów w lecznictwie."
-  
+      p1: "O projekcie"
+      p2: "W związku z postępującym rozwojem technologii i rosnącą świadomością społeczeństwa na temat konopi postanowiliśmy połączyć te dwa światy za pomocą innowacyjnego rozwiązania jakim jest projekt Canna::Block::Chain found by Canna Farmaceutic Technologies. "    
+      p3: "Nasz cel:"
+      p4: "Stworzenie unikatowej kryptowaluty i aplikacji, które ułatwiłyby użytkownikom korzystanie z produktów znajdujących się w Dyspensariach w całej Polsce."
+
   model:
-      title: "Nasz Model"
-      content1: "Import surowca na rynek UE dla wytwórców substancji czynnej"
-      content2: "Dedykowana rozwiązania IT"
-      content3: "Działalność Badawczo – Rozwojowa"
-      content4: "Doradztwo prawne dla Twojego biznesu w Unii Europejskiej"
-      content5: "Wprowadzania produktów do obrotu na rynek UE"
-      content6: "Zastosowanie technologii blockchain"
+      title: "Może poszukujemy właśnie Ciebie?"
+      content1: "Jesteś programistą z pasją, który chciałby mieć realny wpływ na przyszłościowy projekt związany z kryptowalutami i technologią blockchain."
 
   offer:
       title:  "Zakres Działań"
@@ -122,18 +117,15 @@ Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnyc
 
 
   soon:
-    title:  "Nowe sekcje wkrótce"
-    content1: "Pacjęci"
-    content2: "Farmaceuci"
-    content3: "Blockchain"
-    content4: "Przedsiębiorcy"
-    content5: "Badania"
-    content6: "Lekarze"
-    content7: "Inwestorzy"    
-    content8: "Dostawcy"
+    title:  "Zakres obowiązków"
+    content1: "rozwój innowacyjnych rozwiązań związanych z kryptowalutami i technologią blockchain"
+    content2: "udział w opracowywaniu koncepcji oraz planowaniu nowych modułów i funkcjonalności"
+    content3: "przygotowywanie i dbałość o dokumentację projektową"
+    content4: "doskonalenie wdrożonych rozwiązań pod kątem wydajności oraz technologii"
+    content5: "weryfikowanie jakości oprogramowania"
 
   terapy:
-    title: "Terapia medyczną marihuaną jest dopuszczona w 14 krajach Unii Europejskiej."      
+    title: "Jesteś Programistą?"
   
 
   about: 
@@ -157,8 +149,15 @@ Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnyc
 
 
   collaborators:
-    title: "Jesteśmy otwarci na współpracę"  
-    title2: "Zapraszamy międzynarodowych partnerów do współpracy w zakresie rozwoju, dostaw produktów, protokołu badawczo - naukowego i technologii"  
+    title:  "Nasze wymagania "  
+    title2: "Bardzo dobra znajomość języka Ruby/Javascript, mile widziana znajomość frameworka Ruby on Rails i biblioteki React
+    Praktyczna znajomość relacyjnych baz danych SQL (preferowany PostgreSQL)
+    Umiejętność posługiwania się systemem kontroli wersji (preferowany GIT)
+    Znajomość Rspec, JavaScript (ES6), Cypress, GraphQL, TypeScript
+    Przywiązywanie uwagi do utrzymywania wysokiej jakości kodu
+    Podstawy administracji Linuksem oraz narzędzi wspomagających proces wytwarzania oprogramowania
+    Znajomość zagadnień związanych z optymalizacją i skalowaniem aplikacji
+    Znajomość tematyki kryptowalut i blockchain"
 
 
   hub:
@@ -193,8 +192,14 @@ Nasze rozwiązania to realna poprawa jakości życia chorych i niepełnosprawnyc
     contact: "Tematem przewodnim spotkania było - Dyspensarium Cannabis House jako centrum informacji nt. konopi oraz miejsce wydawania surowca w ramach badań naukowych."
     contact2: "Wspólnie z inwestorami podjęliśmy decyzję o zawiązaniu Federacji Dystrybutorów Cannabis. Na spotkaniu prezentowany był szczegółowy sposób uruchomienia placówki Dyspensarium, oraz produkty które będzie można w takim Dyspensarium nabyć." 
     details: "Wzbogaciliśmy spotkanie o kilka informacji dla osób z Federacji Producentów Cannabis."
-    details2:   "Panowie producenci mają zielone światło na uprawianie konopi włóknistych o wysokiej zawartości CBD, zgodnie z istniejącymi technologiami hodowli roślin. Surowiec pozyskany w ten sposób pomoże zdywersyfikować portfel dostawców. Nasz partner ze Szwajcarii dysponuje niezbędną genetyką oraz oferuje pomoc (nasiona, klony, technologię) w uruchamianiu pierwszych upraw i stabilizacji genetycznej w pl." 
+    details2: "Panowie producenci mają zielone światło na uprawianie konopi włóknistych o wysokiej zawartości CBD, zgodnie z istniejącymi technologiami hodowli roślin. Surowiec pozyskany w ten sposób pomoże zdywersyfikować portfel dostawców. Nasz partner ze Szwajcarii dysponuje niezbędną genetyką oraz oferuje pomoc (nasiona, klony, technologię) w uruchamianiu pierwszych upraw i stabilizacji genetycznej w pl." 
     horizon:   "Projekt o którym mowa powyżej jest projektem długofalowym, minimum 10 lat."
     offer: "W naszej ofercie mamy warianty upraw konopi przemysłowych na potrzeby przemysłu przetwórczego jak i przemysłu farmaceutycznego oraz uprawy i dystrybucji na specjalnych warunkach, dopuszczonych przez prawo konopi indyjskich na potrzeby prowadzonych badań naukowych oraz w niedalekiej przyszłości również i przemysłu farmaceutycznego dlatego każdy zainteresowany powinnien znaleść coś dla siebie."
     faq: "po szczegółowe informację zapraszamy do kontaktu 0048 733 232 100 lub mailowo "
 
+    job: "Praca"
+    content1: "W firmie/zdalna"
+    content2: "Koncentracja na jednym projekcie"
+    content3: "Masz wpływ na wybór narzędzi i technologii, rozwiązania technologicznego, produkt końcowy i jego rozwó"
+    content4: "Agile"
+    content5: "Scrum"
