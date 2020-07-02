@@ -132,10 +132,14 @@
 }
 
 h2 {
+  text-align: center;
   text-transform: uppercase;
   color: #024a02;
 }
 
+h3{
+  text-align: center;
+}
 .margin-model-component {
   padding-top: 110px;
   margin-bottom: 60px;
@@ -354,3 +358,39 @@ body {
     margin-left: -20px;
   }
 }
+
+.back{
+  text-align: center;
+  font-weight:  normal;
+  font-style: normal;
+}
+
+.field
+{
+  text-align: center;
+}
+.field1
+{
+  text-align: center;
+}
+.field2
+{
+  text-align: center;
+}
+.field3
+{
+  text-align: center;
+}
+.field4
+{
+  text-align: center;
+}
+.actions{
+  text-align: center;
+}
+
+.p
+{
+  text-align: center;
+}
+
